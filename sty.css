@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    
     background-color: #24252A;
 }
 
@@ -28,10 +27,7 @@ li, a, button{
     pointer-events: auto;
 }
 
-.title{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -69,6 +65,11 @@ button{
     transition: all 0.3s ease 0s;
 }
 
+button:hover{
+    background-color:rgb(186, 190, 190);
+    color: white;
+}
+
 .title, h1{
     display: flex;
     flex-wrap: wrap;
@@ -84,10 +85,7 @@ button{
 
 
 
-button:hover{
-    background-color:rgb(186, 190, 190);
-    color: white;
-}
+
 
 .article{
     display: flex;
@@ -96,9 +94,7 @@ button:hover{
     padding: 0 8px;
 }
 
-.credits{
-    background-color: blanchedalmond;
-}
+
 
 
 p{
@@ -109,7 +105,7 @@ p{
 
 
 .credits{
-    color: blanchedalmond;
+    color: #b9d3da;
     display: flex;
     flex-wrap: wrap;
     text-transform: uppercase;
@@ -120,4 +116,5 @@ p{
     min-height: 36px;
     padding: 0 8px;
     pointer-events: auto;
+    
 }
