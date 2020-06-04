@@ -173,11 +173,11 @@ tbody {
 
 .same{
     	 
-    border: 1px solid black;
+    border: 1px solid rgb(67, 146, 136);
     
     box-sizing: border-box;
     background-color: white;
-    box-shadow: 2px 2px black;
+    box-shadow: 2px 2px rgb(88, 104, 124);
     
     margin: 0 auto;
     margin-top: 10px;
