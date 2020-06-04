@@ -36,6 +36,10 @@ a{
     pointer-events: auto;
 }
 
+footer{
+    background-color: rgba(17, 16, 16, 0.616);
+}
+
 button:hover{
     background-color: rgb(224, 207, 185);
 }
