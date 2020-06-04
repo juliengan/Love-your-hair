@@ -5,12 +5,23 @@
     margin:0;
     padding:0;
     
+    background-color: #24252A;
 }
 button{
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+
     margin : 8px ;
     text-transform: uppercase;
     border: none;
     font-size: .875rem;
+    letter-spacing: 2px;
+    
     letter-spacing: 2px;
     min-height: 36px;
     padding: 0 8px;
@@ -18,6 +29,46 @@ button{
 }
 
 .title{
+    display: flex;
+    flex-wrap: wrap;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav{
+    list-style: none;
+}
+
+.nav li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+.nav li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #0088a9;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.title, h1{
     display: flex;
     flex-wrap: wrap;
     text-transform: uppercase;
@@ -35,15 +86,42 @@ footer{
     
 }
 
+
+
 button:hover{
-    background-color: rgb(224, 207, 185);
+    background-color:rgb(186, 190, 190);
+    color: white;
 }
 
 .article{
     display: flex;
     flex-wrap: wrap;
+    margin: 8px;
+    padding: 0 8px;
 }
 
 .credits{
     background-color: blanchedalmond;
+}
+
+
+p{
+    color: #b9d3da;
+    letter-spacing: 1px;
+}
+
+
+
+.credits{
+    color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    border: none;
+    font-size: .875rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    min-height: 36px;
+    padding: 0 8px;
+    pointer-events: auto;
 }
