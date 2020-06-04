@@ -7,7 +7,7 @@
     
     background-color: #24252A;
 }
-button{
+
 
 li, a, button{
     font-family: "Montserrat", sans-serif;
@@ -16,7 +16,7 @@ li, a, button{
     color: #edf0f1;
     text-decoration: none;
 
-    margin : 8px ;
+    margin: 8px ;
     text-transform: uppercase;
     border: none;
     font-size: .875rem;
@@ -31,6 +31,7 @@ li, a, button{
 .title{
     display: flex;
     flex-wrap: wrap;
+}
 header{
     display: flex;
     justify-content: space-between;
