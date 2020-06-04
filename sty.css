@@ -99,7 +99,9 @@ h1{
 }
 
 
-
+.list-ad-zone-header{
+    color:transparent;
+}
 
  div article{
     display: flex;
@@ -110,7 +112,9 @@ h1{
 }
 
 
-
+footer{
+    background-color: rgb(231,212,255);
+}
 
 p{
     color: #b9d3da;
