@@ -23,6 +23,19 @@ button{
     pointer-events: auto;
 }
 
+a{
+    text-transform: uppercase;
+    border: none;
+    box-shadow: grey 1px 1px 1px;
+    border-radius: 4px;
+    font-size: .875rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    min-height: 36px;
+    padding: 0 8px;
+    pointer-events: auto;
+}
+
 button:hover{
     background-color: rgb(224, 207, 185);
 }
