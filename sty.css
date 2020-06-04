@@ -4,30 +4,24 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    background-color: rgb(116, 126, 177);
+    
 }
 button{
-    display:flex;
-    flex-wrap: wrap;
-    background-color: burlywood;
     margin : 8px ;
     text-transform: uppercase;
     border: none;
-    box-shadow: grey 1px 1px 1px;
-    border-radius: 4px;
     font-size: .875rem;
-    font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     min-height: 36px;
     padding: 0 8px;
     pointer-events: auto;
 }
 
-a{
+.title{
+    display: flex;
+    flex-wrap: wrap;
     text-transform: uppercase;
     border: none;
-    box-shadow: grey 1px 1px 1px;
-    border-radius: 4px;
     font-size: .875rem;
     font-weight: 600;
     letter-spacing: 1px;
@@ -37,7 +31,8 @@ a{
 }
 
 footer{
-    background-color: rgba(17, 16, 16, 0.616);
+    background-color:black;
+    
 }
 
 button:hover{
@@ -47,4 +42,8 @@ button:hover{
 .article{
     display: flex;
     flex-wrap: wrap;
+}
+
+.credits{
+    background-color: blanchedalmond;
 }
