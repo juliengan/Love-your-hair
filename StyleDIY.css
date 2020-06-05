@@ -1,16 +1,72 @@
-.BackTitle{
+/*.BackTitle{
 	padding: 0px;
 	margin: 0px;
 	border: none;
 	width: 100%;
-	/*height: 50px;*/
+	height: 100px;
 	background-color: rgb(231,212,255);
 }
 
-.logo{
+#titleDIY{
+	font-family: fantasy;
+	font-size: 50px;
+}*/
+/*.logo{
 		 width: 100px;
 		 height: 100px;
-		 /*box-shadow: 6px 6px 0px black;*/
 		 border-radius: 90px;
 		 padding-top: 10px;
+}*/
+
+/*hr.style-seven {
+    overflow: visible; 
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.style-seven:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+*/
+
+
+
+.banner{
+    width: 100%;
+    height: 70%;
+    left: 100px;
+    position: relative;
+    
+}
+
+.app-text{
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app-text h1{
+    font-size:43px;
+    width: 640px;
+    padding-bottom: 10px;
+}
+
+.app-text p{
+    font-size:15px;
+    width: 640px;
+    line-height: 25px;
+    color: black;
+    margin-left: 40px;
+    padding-top: 10px;  
 }
