@@ -63,6 +63,11 @@ div img{
     cursor: pointer;
 }
 
+li a img{
+    height:20px;
+    width:20px;
+}
+
 .nav{
     list-style: none;
 }
