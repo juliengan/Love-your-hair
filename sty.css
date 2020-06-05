@@ -70,10 +70,12 @@ li a img{
 
 .nav{
     list-style: none;
+
 }
 
 .nav li{
     display:inline-block;
+    right: 0;
     padding: 0px 20px;
 }
 

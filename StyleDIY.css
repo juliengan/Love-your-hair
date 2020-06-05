@@ -1,0 +1,16 @@
+.BackTitle{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	width: 100%;
+	/*height: 50px;*/
+	background-color: rgb(231,212,255);
+}
+
+.logo{
+		 width: 100px;
+		 height: 100px;
+		 /*box-shadow: 6px 6px 0px black;*/
+		 border-radius: 90px;
+		 padding-top: 10px;
+}
