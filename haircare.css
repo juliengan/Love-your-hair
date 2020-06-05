@@ -1,4 +1,76 @@
 .container{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+
+.item{
+    padding: 5px;
+    margin:20px;
+    font-size: 24px;
+}
+
+.item:hover{
+    opacity: 0.7;
+}
+
+/*test banniere*/
+@media screen and (max-width: 767px){}
+.genericSplash .mu__imageWrap 
+
+img {
+    width: 100%;
+    position: relative;
+    transform: none;
+    left: 0;
+    top: 0;
+}
+
+.genericSplash .mu__imageWrap img {
+    min-width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+div {
+    display: block;
+}
+
+#chrome-app-container {
+    flex: 1 0 auto;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+    display: block;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, main, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+main {
+    display: block;
+}
+body {
+    font-family: futura-pt,sans-serif;
+}
+body {
+    line-height: 1;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+/**************/
