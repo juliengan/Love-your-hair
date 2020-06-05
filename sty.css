@@ -7,6 +7,23 @@
     /*background-color: #24252A;*/
 }
 
+html, body {
+    height: 100%;
+}
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+      margin-bottom: -142px; 
+  }
+  .page-wrap:after {
+    content: "";
+    display: block;
+  }
+  .site-footer, .page-wrap:after {
+    /* .push must be the same height as footer */
+      height: 142px; 
+  }
 
 li, a, button{
     font-family: "Montserrat", sans-serif;
@@ -113,9 +130,11 @@ h1{
 
 
 
-footer{
+.site-footer{
     background-color: rgb(231,212,255);
 }
+
+
 
 p{
     color: #b9d3da;
