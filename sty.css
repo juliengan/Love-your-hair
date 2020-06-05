@@ -52,7 +52,14 @@ header{
     padding: 30px 10%;
 }
 
-.logo{
+
+.site-footer{
+    background-color: rgb(231,212,255);
+}
+
+div img{
+    height:350px;
+    width:350px;
     cursor: pointer;
 }
 
@@ -131,9 +138,7 @@ h1{
 
 
 
-.site-footer{
-    background-color: rgb(231,212,255);
-}
+
 
 
 
