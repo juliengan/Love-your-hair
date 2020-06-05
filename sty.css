@@ -11,11 +11,12 @@ html, body {
     height: 100%;
 }
 
-.page-wrap {
+#page-wrap {
     min-height: 100%;
     /* equal to footer height */
       margin-bottom: -142px; 
   }
+
   .page-wrap:after {
     content: "";
     display: block;
@@ -159,7 +160,7 @@ p{
 }
 
 
-/*it's your turn form**********************/
+/*******************it's your turn form**********************/
 
 caption{
     font-size: 20px;
@@ -210,3 +211,7 @@ tbody {
     flex-flow: row wrap;
             
 }
+
+/*media query*/
+/*@media screen and (min */
+
