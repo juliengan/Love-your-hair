@@ -13,6 +13,8 @@ body { overflow-x: hidden }
   
 }
 
+
+
 .smooth { 
     transition: transform calc(var(--f, 1)*.5s) ease-out; 
 }
@@ -27,6 +29,7 @@ body { overflow-x: hidden }
     width: calc(100%/var(--n));
     pointer-events: none;
 }
+
 
 /*.genericSplash .mu__imageWrap img {
     min-width: 70%;
