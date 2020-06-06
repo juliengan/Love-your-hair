@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .banner{
     width: 80%;
@@ -41,5 +42,101 @@
 	width: 90%;
 	padding-left: 50px; 
 	padding-bottom: 120px;
+
+}
+
+.menuDiy button{
+	padding: 9px 25px;
+    background-color: rgb(231,212,255);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.menuDiy{
+	text-align: center;
+	margin: 20px;
+	left: 100px;
+}
+
+.menuDiy button:hover{
+    background-color:#9786ad;
+    color: white;
+}
+
+.menuDiy button{
+    transition: all 0.3s ease 0s;
+
+}
+
+.masks{
+	display: flex;
+  	flex-wrap: wrap;
+}
+
+.mask_avocado {
+  width  : 500px;
+  height : 400px;
+  background : #b6eef2;
+  margin: 40px;
+  margin-left: 100px;
+  position: relative;
+  
+}
+
+p{
+	color: white;
+    letter-spacing: 1px;
+    font-size:20px;
+    margin: 20px;
+    font-weight: 500;
+
+}
+
+h2{
+	text-align: right;
+	font-family: "Montserrat", sans-serif;
+	color: pink;
+	font-size: 20px;
+	font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.text-avocado{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.ingredients li{
+	padding-left: 20px;
+	left: 30px;
+	font-size: 12px;
+	color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+ 
+}
+
+.ingredients ul{
+	padding-left: 50px;
+}
+
+.avocado_picture{
+	width: 30%;
+	float: right;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	height: 40%;
+}
+
+.avocado_picture img{
+	width: 	100%;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	margin: 20px;
 
 }

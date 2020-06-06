@@ -46,11 +46,16 @@ li, a, button{
     pointer-events: auto;
 }
 
+.navigation{
+    float: right;
 
-header nav{
+}
+
+.nav header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+      background-color: grey;
 }
 
 
@@ -89,7 +94,7 @@ li a img{
     color: #0088a9;
 }
 
-button{
+.nav button{
     padding: 9px 25px;
     background-color: #0088a9;
     border:none;
@@ -98,7 +103,7 @@ button{
     transition: all 0.3s ease 0s;
 }
 
-button:hover{
+.nav button:hover{
     background-color:rgb(54, 80, 80);
     color: white;
 }
