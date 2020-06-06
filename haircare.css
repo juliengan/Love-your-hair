@@ -1,4 +1,4 @@
-*{margin:0;}
+
 body { overflow-x: hidden }
 .container{
     --n: 1;
@@ -20,15 +20,14 @@ body { overflow-x: hidden }
 }
 
 
-/*test banniere*/
-/*@media screen and (max-width: 767px){}
-.genericSplash .mu__imageWrap */
+
 
 .container img {
     width: 100%;
     width: calc(100%/var(--n));
     pointer-events: none;
 }
+
 
 
 /*.genericSplash .mu__imageWrap img {
