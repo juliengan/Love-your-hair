@@ -30,9 +30,6 @@ body { overflow-x: hidden }
     pointer-events: none;
 }
 
-img{
-    background-color: gold;
-}
 
 /*.genericSplash .mu__imageWrap img {
     min-width: 70%;
