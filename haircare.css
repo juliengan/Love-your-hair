@@ -13,6 +13,8 @@ body { overflow-x: hidden }
   
 }
 
+
+
 .smooth { 
     transition: transform calc(var(--f, 1)*.5s) ease-out; 
 }
@@ -26,6 +28,10 @@ body { overflow-x: hidden }
     width: 100%;
     width: calc(100%/var(--n));
     pointer-events: none;
+}
+
+img{
+    background-color: gold;
 }
 
 /*.genericSplash .mu__imageWrap img {
