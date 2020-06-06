@@ -6,3 +6,11 @@
 p{
     display:inline;
 }
+
+h1,h2{
+    position: sticky;
+    top:0;
+    background-color: chocolate;
+}
+
+
