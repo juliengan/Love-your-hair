@@ -78,14 +78,14 @@
 .mask_avocado {
   width  : 500px;
   height : 400px;
-  background : #b6eef2;
+  background : #a4dec9;
   margin: 40px;
   margin-left: 100px;
   position: relative;
   
 }
 
-p{
+p, h2{
 	color: white;
     letter-spacing: 1px;
     font-size:20px;
@@ -93,16 +93,16 @@ p{
     font-weight: 500;
 
 }
-
+/*
 h2{
 	text-align: right;
 	font-family: "Montserrat", sans-serif;
-	color: pink;
+	color: white;
 	font-size: 20px;
 	font-weight: 600;
     letter-spacing: 1px;
 }
-
+*/
 .text-avocado{
 	position: relative;
 	display: flex;
