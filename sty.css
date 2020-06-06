@@ -4,7 +4,14 @@
 /*@media screen and (max-width: 767px){}
 .genericSplash .mu__imageWrap */
 
-body { overflow-x: hidden }
+html {
+    scroll-behavior: smooth;
+  }
+
+body { 
+    overflow-x: hidden;
+    /*background-color: #F0C300; */
+}
 .container{
     --n: 1;
     display: flex;
@@ -38,7 +45,7 @@ body { overflow-x: hidden }
     box-sizing: border-box;
     margin:0;
     padding:0;
-    /*background-color: #24252A;*/
+    
 }
 
 html, body {
@@ -49,6 +56,7 @@ html, body {
      min-height: 100%;
     /* equal to footer height */
      margin-bottom: -142px; 
+     
   }
 
 
@@ -164,7 +172,7 @@ h1{
     
     border: none;
     font-size: .875rem;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 1px;
     min-height: 36px;
     padding: 0 8px;
@@ -187,7 +195,7 @@ h1{
 
 
 p{
-    color: #b9d3da;
+    color: #041318;
     letter-spacing: 1px;
 }
 
