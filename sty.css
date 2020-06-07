@@ -10,26 +10,15 @@ html {
 
 body { 
     overflow-x: hidden;
-    /*background-color: #F0C300;*/
-    
-    /*animated linear gradient avec @frames*/
-    /*width: auto;
-    height:auto;
-    color:#fff;
-    background: linear-gradient(-46deg,#0b485b,#f56217,#2196f3,#f44336);
-    background-size: auto;
-    animation: gradient 20s ease-in-out infinite;
-    font-family: "open sans";
-    position: relative;*/
 }
 .container{
     --n: 1;
     display: flex;
     align-items: center;
     overflow: hidden;
-  width: 100%;
-  width: calc(var(--n)*100%);
-  height: 50vw; max-height: 100vh;
+  width: 80%;
+  width: calc(var(--n)*80%);
+  height: 20vw; max-height: 60vh;
   transition: transform .5s ease-out;
   transform: translate(calc(var(--i, 0)/var(--n)*-100% + var(--tx, 0px)))
   
@@ -179,28 +168,6 @@ li a img{
     left: 0;
 }
 
-/*h1{
-    font-size:43px;
-    width: 640px;
-    padding-bottom: 10px;
-    color:pink;
-    font-weight: 200;
-}*/
-/*@keyframes gradient
-{
-    0%
-    {
-        background-position:0% 50%;
-    }
-    50%
-    {
-        background-position:100% 50%;
-    }
-    100%
-    {
-        background-position:0% 50%;
-    }
-}*/
 
 .list-ad-zone-header{
     color:transparent;
