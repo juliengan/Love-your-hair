@@ -10,7 +10,17 @@ html {
 
 body { 
     overflow-x: hidden;
-    /*background-color: #F0C300; */
+    /*background-color: #F0C300;*/
+    
+    /*animated linear gradient*/
+    /*width: auto;
+    height:auto;
+    color:#fff;
+    background: linear-gradient(-46deg,#0b485b,#f56217,#2196f3,#f44336);
+    background-size: auto;
+    animation: gradient 20s ease-in-out infinite;
+    font-family: "open sans";
+    position: relative;*/
 }
 .container{
     --n: 1;
@@ -88,6 +98,8 @@ li, a, button, label{
     pointer-events: auto;
 }
 
+
+
 .navigation{
     float: right;
 
@@ -134,7 +146,10 @@ li a img{
 
 .nav li a:hover{
     color: #0088a9;
+    
 }
+
+
 
 .nav button{
     padding: 9px 25px;
@@ -166,19 +181,27 @@ li a img{
 }
 
 h1{
+    font-size:43px;
+    width: 640px;
+    padding-bottom: 10px;
     color:pink;
-    display: flex;
-    flex-wrap: wrap;
-    
-    border: none;
-    font-size: .875rem;
-    font-weight: 800;
-    letter-spacing: 1px;
-    min-height: 36px;
-    padding: 0 8px;
-    pointer-events: auto;
+    font-weight: 200;
 }
-
+/*@keyframes gradient
+{
+    0%
+    {
+        background-position:0% 50%;
+    }
+    50%
+    {
+        background-position:100% 50%;
+    }
+    100%
+    {
+        background-position:0% 50%;
+    }
+}*/
 
 .list-ad-zone-header{
     color:transparent;
@@ -195,8 +218,13 @@ h1{
 
 
 p{
-    color: #041318;
     letter-spacing: 1px;
+    font-size:15px;
+    width: 640px;
+    line-height: 25px;
+    color: black;
+    margin-left: 40px;
+    padding-top: 10px;  
 }
 
 

@@ -1,16 +1,38 @@
+
 .hair_sections img{
     height:300px;
     width:280px;
 }
 
 p{
-    display:inline;
+    
+    font-size:15px;
+    width: 640px;
+    line-height: 25px;
+    color: black;
+    margin-left: 40px;
+    padding-top: 10px;  
+    justify-content: center;
+    
 }
 
-h1,h2{
+h1{
     position: sticky;
     top:0;
-    background-color: chocolate;
+ 
+    font-size:43px;
+    width: 640px;
+    padding-bottom: 10px;
 }
+
+h2{
+    position: sticky;
+    top:0;
+    color: rgb(179, 136, 179);
+    font-size:33px;
+    width: 640px;
+    padding-bottom: 10px;
+}
+
 
 

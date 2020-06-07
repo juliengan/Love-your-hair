@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="sty.css">
+        <link rel="stylesheet" href="itsyourturn.css">
         <title>Cosmetic_NGAU_NGAN_EL_AJROUDI</title>
     </head>
     
@@ -42,70 +43,15 @@
             <p>You are probably here because you would like to have more advices on which products you should use for on skincare. Don't worry, we, Imane El Ajroudi, Aurélia and Julie, are here to help you find fresh products for your skin so that you can become the best version of yourself.</p>
         </article>
         
-        <div id="task_tab" class="same">
-            <table>
-                <caption>Tasks</caption>
-                <thead>
-                    <tr>
-                        <th>USER ID</th>
-                        <th>ID</th>
-                        <th>TITLES</th>
-                        <th>FINISHED</th>
-                    </tr>
-                </thead>
-                <tbody id="tab_tasks">
-    
-                </tbody>
-            </table>
-
-            <main>
-                <div id="tableau" class="same">
-                    <table>
-                        <caption>Users</caption>
-                        <thead>
-                            <tr>
-                                <th>First name</th>
-                                <th>Last name</th>
-                                <th>Email</th>
-                                <th>Role</th>
-                            </tr>
-                        </thead>
-                        <tbody id="tab">
-        
-                        </tbody>
-                    </table>
-                </div>
-            </main>
-    
-            <div>
-                <div class="pagination">
-                    <div id = "slide_page"></div>
-                    <div id = "arrow_page">
-                        <a id = "back" href="javascript:backPage()">&laquo;</a>
-                        <a id = "forward" href="javascript:forwardPage()">&raquo;</a>
-                    </div>
-                </div>
+        <!--animation-->
+        <div class="view_port">
+            <div class="polling_message">
+              En attente
             </div>
-        </div>
-            <div id = "scrollform">
-                <form class="same" id="login" onsubmit="return false">
-                    <div>
-                        <input type="text" id="name" name="user_name" placeholder="First name"  required>
-                        <input type="text" id="lastname" name="user_lastname" placeholder="Last name"  required>
-                        <input type="email" id="mail" name="user_mail" placeholder="Email"  required>
+            <div class="cylon_eye"></div>
+          </div>
+        <!------------------->
         
-                        <select name="user_role" id="role">	               
-                            <option>Student</option>
-                            <option>Teacher</option>
-                        </select>	            
-                    </div>
-                    <div class="buttons">
-                        <button type="submit" id="add" value="false" onclick="addTable()">Add</button>
-                        <button type="submit" onclick="delete_tab()">Delete everything</button>	    	
-                    </div>		    
-                </form>
-            </div>
-        </div>
     </body>
 
     <footer class="site-footer">
