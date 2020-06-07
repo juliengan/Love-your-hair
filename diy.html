@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width = device-width, initial-scale=1.0">
@@ -6,7 +8,7 @@
         <title>Cosmetic_NGAU_NGAN_EL_AJROUDI</title>
 </head>
     
-    <body>
+    
         <header>
             <div class="page-wrap">
             <a class="title">Cosmetic</a>
@@ -37,7 +39,7 @@
             
         </header>
 
-
+    <body>
         <div class="banner">
             <div class="app-text">
                 <h1>DIY cosmetic products</h1>
@@ -45,7 +47,7 @@
             </div>  
 
             <div class="app-picture">
-                <img src="DIYbannière.jpg">
+                <img src="DIY_images/DIYbannière.jpg">
             </div>             
         </div>
 
@@ -58,31 +60,117 @@
             </div>            
         </nav>
 
-        <div class="masks">
-            <div class="mask_avocado">  
-                <div class="text_avocado">
-                    <h2 style="font-style: italic;">For dry skin</h2>
-                    <p style="text-align: center;">Avocado face mask</p>
-                    <p>If you have dry skin, you know that the majority<br>of dry-skin remedies involve heavy oils. Try this mask to hydrate your dry skin !</p>
-                    <p>Ingredients:</p>
-                    <div class="ingredients">
-                        <ul>
-                          <li>1 avocado</li>
-                          <li>2 tablespoons plain yogurt</li>
-                          <li>1 tablespoon olive oil</li>
-                          <li>1 tablespoon honey</li>
-                        </ul>
-                    </div> 
+        
+        <!--Slider-->
+       
+        <div class="galleryContainer">
+            <div class="slideShowContainer">
+                <div class="leftArrow"> <span class="arrow arrowLeft"></span></div>
+                <div class="rightArrow" > <span class="arrow arrowRight"></span></div>
+                <div class="imageHolder">
+                    <img src="DIY_images/diap1.jpg" width="100" height="100">
+                    <!--<div class="text_mask">
+                        <h2 style="font-style: italic;">For dry skin</h2>
+                        <p style="text-align: center;"><br><br>Avocado face mask</p>
+                        <p>If you have dry skin, you know that the majority of dry-skin remedies involve heavy oils.<br>Try this mask to hydrate your dry skin !</p>
+                        <p>Ingredients:<br>- 1 avocado<br>- 2 tablespoons plain yogurt<br>- 1 tablespoon olive oil<br>- 1 tablespoon honey</p>     
+                    </div>-->
+                </div> 
 
+                <div class="imageHolder">
+                    <img src="DIY_images/oatmeal_mask.jpg">
+                    <div class="text_mask">
+                        <h2 style="font-style: italic;">For oily skin</h2>
+                        <p style="text-align: center;"><br><br>Oatmeal face mask</p>
+                        <p>If you have dry skin, you know that the majority of dry-skin remedies involve heavy oils.<br>Try this mask to hydrate your dry skin !</p>
+                        <p>Ingredients:<br>- 1 avocado<br>- 2 tablespoons plain yogurt<br>- 1 tablespoon olive oil<br>- 1 tablespoon honey</p>     
+                    </div>
                 </div> 
                 
-            </div>
-            <div class="avocado_picture">
-                    <img src="avocado_mask.jpg">
+                <div class="imageHolder">
+                    <img src="DIY_images/diap1.jpg">
+                    <!--<div class="text_mask">
+                        <h2 style="font-style: italic;">For sensitive skin</h2>
+                        <p style="text-align: center;"><br><br>Cacao face mask</p>
+                        <p>If you have dry skin, you know that the majority of dry-skin remedies involve heavy oils.<br>Try this mask to hydrate your dry skin !</p>
+                        <p>Ingredients:<br>- 1 avocado<br>- 2 tablespoons plain yogurt<br>- 1 tablespoon olive oil<br>- 1 tablespoon honey</p>     
+                    </div>-->
+                </div> 
             </div> 
+
+            <div id="dotsContainer">
+                
+            </div>
+
         </div>
+        <script type="text/javascript" src="diyjsc.js"></script> 
 
+        
+        <!--<div class="slider1">
+            <div class="slider-items">
+                <div class="item">
+                    <img src="DIY_images/avocado_mask.jpg" width="220%" height="200%">
+                    <p style="color: black">hello there</p>
+                    
+                </div>
+                
+            </div>
+            
+        </div>-->
 
+<!--
+        <div id="slider">
+           <input type="radio" name="slider" id="slide1" checked>
+           <input type="radio" name="slider" id="slide2">
+           <input type="radio" name="slider" id="slide3">
+           <input type="radio" name="slider" id="slide4">
+           <div id="slides">
+              <div id="overflow">
+                 <div class="inner">
+                    <div class="slide slide_1">
+                       <div class="slide-content">
+                          <h2>Slide 1</h2>
+                          <p>Content for Slide 1</p>
+                       </div>
+                    </div>
+                    <div class="slide slide_2">
+                       <div class="slide-content">
+                          <h2>Slide 2</h2>
+                          <p>Content for Slide 2</p>
+                       </div>
+                    </div>
+                    <div class="slide slide_3">
+                       <div class="slide-content">
+                          <h2>Slide 3</h2>
+                          <p>Content for Slide 3</p>
+                       </div>
+                    </div>
+                    <div class="slide slide_4">
+                       <div class="slide-content">
+                          <h2>Slide 4</h2>
+                          <p>Content for Slide 4</p>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div id="controls">
+              <label for="slide1"></label>
+              <label for="slide2"></label>
+              <label for="slide3"></label>
+              <label for="slide4"></label>
+           </div>
+           <div id="bullets">
+              <label for="slide1"></label>
+              <label for="slide2"></label>
+              <label for="slide3"></label>
+              <label for="slide4"></label>
+           </div>
+        </div>
+-->
+
+        <p style="color: black">Hi</p>
+     
     </body>
 
     <footer class="site-footer">
@@ -97,4 +185,6 @@
         </div>
     </footer>
 </div>
+
+
 </html>
