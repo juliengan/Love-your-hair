@@ -12,7 +12,7 @@ body {
     overflow-x: hidden;
     /*background-color: #F0C300;*/
     
-    /*animated linear gradient*/
+    /*animated linear gradient avec @frames*/
     /*width: auto;
     height:auto;
     color:#fff;
@@ -180,13 +180,13 @@ li a img{
     left: 0;
 }
 
-h1{
+/*h1{
     font-size:43px;
     width: 640px;
     padding-bottom: 10px;
     color:pink;
     font-weight: 200;
-}
+}*/
 /*@keyframes gradient
 {
     0%
@@ -218,13 +218,14 @@ h1{
 
 
 p{
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;
     font-size:15px;
     width: 640px;
     line-height: 25px;
     color: black;
     margin-left: 40px;
-    padding-top: 10px;  
+    padding-top: 10px;  */
+    margin:10px;
 }
 
 

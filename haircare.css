@@ -4,26 +4,37 @@
     width:280px;
 }
 
-p{
-    
+.grow{
+    position: -webkit-sticky;
+    position: sticky;
+    height: 50px;
+    top: 0;
+    font: 50px/60px "Crimson Text";
+    color: #fdef67;
+    text-shadow: 2px 2px 0 #f83d23;
+    background-color: dodgerblue;
+    margin: 0;
+}
+
+p{ 
     font-size:15px;
     width: 640px;
     line-height: 25px;
-    color: black;
     margin-left: 40px;
     padding-top: 10px;  
     justify-content: center;
+    background-color: chocolate;
     
 }
 
-h1{
+/*h1{
     position: sticky;
     top:0;
- 
+    background-color: chocolate;
     font-size:43px;
     width: 640px;
     padding-bottom: 10px;
-}
+}*/
 
 h2{
     position: sticky;
@@ -32,6 +43,7 @@ h2{
     font-size:33px;
     width: 640px;
     padding-bottom: 10px;
+    background-color: chocolate;
 }
 
 
