@@ -16,9 +16,9 @@ body {
     display: flex;
     align-items: center;
     overflow: hidden;
-  width: 100%;
-  width: calc(var(--n)*100%);
-  height: 50vw; max-height: 100vh;
+  width: 80%;
+  width: calc(var(--n)*80%);
+  height: 20vw; max-height: 60vh;
   transition: transform .5s ease-out;
   transform: translate(calc(var(--i, 0)/var(--n)*-100% + var(--tx, 0px)))
   
