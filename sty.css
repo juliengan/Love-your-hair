@@ -40,13 +40,7 @@
     }
 
     article {
-        background-image: linear-gradient(
-            to bottom,
-            transparent 50px,
-            #ecc1c1 50px,
-            #e6bdbe calc(100% - 50px),
-            transparent 0
-        );
+        background-color: rgb(168, 170, 189);
         
         margin: auto auto 50px auto;
         width: 100vw;
