@@ -3,12 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="sty.css">
-
-        <link rel="stylesheet" href="StyleDIY.css">
-        <title>Cosmetic_NGAU_NGAN_EL_AJROUDI</title>
-
         <title>Cosmetic_NGAU_NGAN_ELAJROUDI</title>
-
     </head>
     
 
@@ -32,18 +27,17 @@
             
 
             <div class='style' >
-                <img src=""  width=100 height=100 alt=""/>
+                <img src="FACECARE/face-care.png"  width=100 height=100 alt=""/>
 
 
             </div>
             <script src="haircare.js"></script>
         </header>
             
-
-        <article id="article"><div class="grow">Face care routine</div>
+        <article id="article">
+            <h1>Face care routine</h1>
             <p>You are probably here because you would like to have more information about which products to use for your skincare. <br>Don't worry, we, Imane, Aurélia and Julie, are here to help you find fresh products for your skin <br>so you can boost your natural beauty and get the clear, radiant look that you have always longed for. </p>
         </article>
-        
         <article>
             <h1>Figure out your skin type first!</h1>
             <nav class="navigationFace">
@@ -57,11 +51,7 @@
         </article>
 
 
-<div id="Normal">
-            <div class="slide-container">
-                
-                    <img src="FACECARE/normal.png" style="width:70%; height: 70%">
-                </div>
+
 
                 
 
@@ -69,34 +59,17 @@
 
 <div id="Dry">
             <div class="slide-container">
-               
-                    <img src="FACECARE/dry.png" style="width:70%; height: 70%">
-            </div>
-
-
-                  
-
-                
-
-
-
-
-<div id="Oily">
-            <div class="slide-container">
-                 
-                    <img src="FACECARE/oily.png" style="width:70%; height: 70%">
-                
-            </div>    
-
-                  
-                
-
-<div id="Combination skin">
-            <div class="slide-container">
-
-                    <img src="FACECARE/combination.png" style="width:70%; height: 70%">
-                  
+                  <div class="mySlide">
+                    <img src="" style="width:80%; height: 70%">
+                  </div>
             </div>      
+
+                  
+
+                
+
+
+
 
                  
 
