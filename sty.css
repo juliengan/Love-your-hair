@@ -1,15 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-/*test banniere*/
-/*@media screen and (max-width: 767px){}
-.genericSplash .mu__imageWrap */
+
+
+/*liste des produits*/
+.overall ul li a img{
+    height:200px;
+    width: 200px;
+}
+
+.overall ul{
+    
+    width:30%;
+}
+
+.welcome {
+    background-color: #c882c5;
+    height: 200px;
+    margin: 0px auto;
+    width: 100vw;
+    max-width: 1200px;
+    top:0;
+}
+
+.goal {
+    background-color: dodgerblue;
+    height: 200px;
+    margin: 0px auto;
+    width: 100vw;
+    max-width: 1200px;
+}
+
+
+
+
 
 html {
     scroll-behavior: smooth;
+    /*liste des produits*/
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
   }
 
 body { 
     overflow-x: hidden;
+    
+    /*liste des produits*/
+        font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        -moz-osx-font-smoothing: grayscale;
+        line-height: 1.5;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "kern";
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+    /*********************/
 }
 .container{
     --n: 1;
@@ -29,9 +73,6 @@ body {
 .smooth { 
     transition: transform calc(var(--f, 1)*.5s) ease-out; 
 }
-
-
-
 
 .container img {
     width: 100%;
@@ -70,7 +111,6 @@ html, body {
   }
 
 li, a, button, label{
-    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #000608;
@@ -132,13 +172,13 @@ li a img{
 }
 
 .nav li a:hover, .nav_footer li a:hover{
-    color: #0088a9;
-    font: 18px/8px "Crimson Text";
-    color: dodgerblue;
-    text-shadow: 2px 2px 0 #f83d23;
-    background-color: #fdef67;
-    margin: 0;
-    
+    text-shadow:#ffe69a 0 -1px 0,
+#ff6767 2px 2px 0,
+#ca3333 3px 3px 0,
+#770a0c 4px 4px 0,
+#333 5px 5px 10px;
+color:#FFE5BF;
+background-color:#fff;
 }
 
 
@@ -158,7 +198,6 @@ li a img{
 }
 
 .title{
-    
     display: flex;
     flex-wrap: wrap;
     text-transform: uppercase;
@@ -171,19 +210,17 @@ li a img{
     pointer-events: auto;
     left: 0;
 
-
     text-shadow:#ffe69a 0 -1px 0,
 #ff6767 2px 2px 0,
 #ca3333 3px 3px 0,
 #770a0c 4px 4px 0,
-#333 5px 5px 10px;color:#FFE5BF;
+#333 5px 5px 10px;
+color:#FFE5BF;
 background-color:#fff;
 }
 
 .title:hover{
-    /*background-color:rgb(54, 80, 80);*/
     color: white;
-    width:50%
 }
 
 
@@ -206,7 +243,6 @@ p{
     font-size:15px;
     width: 640px;
     line-height: 25px;
-    color: black;
     margin-left: 40px;
     padding-top: 10px;  */
     margin:10px;

@@ -1,42 +1,50 @@
-
-.hair_sections img{
-    height:300px;
-    width:280px;
-}
-
 article {
 	background-image: linear-gradient(
 		to bottom,
 		transparent 50px,
-		#fdef67 50px,
-		#fdef67 calc(100% - 50px),
+		#ecc1c1 50px,
+		#e6bdbe calc(100% - 50px),
 		transparent 0
-	);
+    );
+    
     margin: auto auto 50px auto;
     width: 100vw;
     max-width: 820px;
 }
 
-.grow,.tip{
+.grow{
+    top:30px;
     position: -webkit-sticky;
     position: sticky;
     height: 50px;
+    z-index: 1;   
+}
+.tip{
+    position: relative;
+    top:10px;
+
+    z-index: 2;
 }
 
 .tip{
-    top: 0;
-    font: 50px/60px "Crimson Text";
-    color: #fdef67;
-    text-shadow: 2px 2px 0 #f83d23;
-    background-color: dodgerblue;
     margin: 0;
+    font: 21px/37px "Titan One";
+    text-shadow:#ffe69a 0 -1px 0,
+    #ff6767 2px 2px 0,
+    #ca3333 3px 3px 0,
+    #770a0c 4px 4px 0,
+    #333 5px 5px 10px;
+    color:#fff;
 }
 
 .grow {
-    top: 0;
-    font: 41px/57px "Titan One";
-    color: #f83d23;
-    text-shadow: 5px 5px 0 dodgerblue;
+font: 41px/57px "Titan One";
+    text-shadow:#ffe69a 0 -1px 0,
+#ff6767 2px 2px 0,
+#ca3333 3px 3px 0,
+#770a0c 4px 4px 0,
+#333 5px 5px 10px;
+color:#FFE5BF;
 }
 
 p{ 
@@ -57,8 +65,3 @@ p{
     }
     
 }
-
-
-
-
-
