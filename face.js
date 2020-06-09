@@ -20,7 +20,7 @@ function showOily(){
     document.getElementById("Normal").style.display = "none";
 }
 
-function showCombination skin(){
+function showCombinationskin(){
 	document.getElementById("Oily").style.display = "none";
     document.getElementById("Dry").style.display = "none";
     document.getElementById("Combination skin").style.display = "block";
