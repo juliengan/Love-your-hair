@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
 
 
@@ -21,31 +22,31 @@
     #770a0c 4px 4px 0,
     #333 5px 5px 10px;
     color:#FFE5BF;
-    }
+}
 
-    .grow{
-        top:30px;
-        position: -webkit-sticky;
-        position: sticky;
-        height: 50px;
-        z-index: 1;   
-    }
+.grow{
+    top:30px;
+    position: -webkit-sticky;
+    position: sticky;
+    height: 50px;
+    z-index: 1;   
+}
 
-    @media (max-width: 420px) {
-        .grow {
-            font: 24px/72px "Titan One";
-            text-align: center;
-        }
-        
+@media (max-width: 420px) {
+    .grow {
+        font: 24px/72px "Titan One";
+        text-align: center;
     }
+    
+}
 
-    article {
-        background-color: rgb(168, 170, 189);
-        
-        margin: auto auto 50px auto;
-        width: 100vw;
-        max-width: 820px;
-    }
+article {
+    background-color: rgb(168, 170, 189);
+    
+    margin: auto auto 50px auto;
+    width: 100vw;
+    max-width: 820px;
+}
 
 .welcome {
     background-color: #ca3333;
@@ -78,27 +79,27 @@ html {
 body { 
     overflow-x: hidden;
     
-    /*liste des produits*/
-        font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
-        font-size: 16px;
-        -moz-osx-font-smoothing: grayscale;
-        line-height: 1.5;
-        text-rendering: optimizeLegibility;
-        font-feature-settings: "kern";
-        -webkit-font-kerning: normal;
-        font-kerning: normal;
-    /*********************/
+/*liste des produits*/
+    font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+/*********************/
 }
 .container{
     --n: 1;
     display: flex;
     align-items: center;
     overflow: hidden;
-  width: 30%;
-  width: calc(var(--n)*30%);
-  height: 20vw; max-height: 130vh;
-  transition: transform .5s ease-out;
-  transform: translate(calc(var(--i, 0)/var(--n)*-30% + var(--tx, 0px)))
+    width: 30%;
+    width: calc(var(--n)*30%);
+    height: 20vw; max-height: 130vh;
+    transition: transform .5s ease-out;
+    transform: translate(calc(var(--i, 0)/var(--n)*-30% + var(--tx, 0px)))
   
 }
 
@@ -130,19 +131,19 @@ html, body {
      min-height: 100%;
     /* equal to footer height */
      margin-bottom: -142px; 
-     
-  }
+ 
+}
 
 
 
-  .page-wrap:after {
+.page-wrap:after {
     content: "";
     display: block;
-  }
-  .site-footer, .page-wrap:after {
+}
+.site-footer, .page-wrap:after {
     /* .push must be the same height as footer */
       height: 142px; 
-  }
+}
 
 li, a, button, label{
     font-weight: 500;
@@ -168,7 +169,7 @@ li, a, button, label{
 
 }
 
-.nav header {
+.nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -207,27 +208,27 @@ li a img{
 
 .nav li a:hover, .nav_footer li a:hover{
     text-shadow:#ffe69a 0 -1px 0,
-#ff6767 2px 2px 0,
-#ca3333 3px 3px 0,
-#770a0c 4px 4px 0,
-#333 5px 5px 10px;
-color:#FFE5BF;
-background-color:#fff;
+    #ff6767 2px 2px 0,
+    #ca3333 3px 3px 0,
+    #770a0c 4px 4px 0,
+    #333 5px 5px 10px;
+    color:#FFE5BF;
+
 }
 
 
 
-.nav button, .nav_footer button{
+.nav_footer button{
     padding: 9px 25px;
-    background-color: #0088a9;
+    background-color: #AA90B1;
+    border-radius: 10px 100px / 120px;
     border:none;
-    border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
-.nav button:hover{
-    background-color:rgb(54, 80, 80);
+.nav_footer button:hover{
+    background-color:#B584C1;
     color: white;
 }
 
@@ -245,12 +246,12 @@ background-color:#fff;
     left: 0;
 
     text-shadow:#ffe69a 0 -1px 0,
-#ff6767 2px 2px 0,
-#ca3333 3px 3px 0,
-#770a0c 4px 4px 0,
-#333 5px 5px 10px;
-color:#FFE5BF;
-background-color:#fff;
+    #ff6767 2px 2px 0,
+    #ca3333 3px 3px 0,
+    #770a0c 4px 4px 0,
+    #333 5px 5px 10px;
+    color:#FFE5BF;
+    background-color:#fff;
 }
 
 .title:hover{
@@ -299,11 +300,49 @@ p{
     
 }
 
+.logo{
+    background: url(home_images/home1.jpg) no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 100px;
+    opacity: 70%;
+}
 
 
+.text-logo h1{
+    font-family: 'Lora', serif;
+    color: black;
+    font-size:65px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 13%;
+}
 
+.text-logo p{
+    color: black;
+    width: 60%;
+    text-align: center;
+    left: 20%;
+    padding: 0px 30px 40px;
 
+}
 
+.learn_more{
+    text-align: center;
+}
+
+.learn_more button{
+    background-color: #E0CFE4;
+    border-radius: 10px 100px / 120px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.learn_more button:hover{
+    background-color: #B584C1;
+}
 
 /*******************it's your turn form**********************/
 
