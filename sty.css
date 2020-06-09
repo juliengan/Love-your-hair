@@ -32,7 +32,7 @@
     z-index: 1;   
 }
 
-@media (max-width: 420px) {
+@media (max-width: 1020px) {
     .grow {
         font: 24px/72px "Titan One";
         text-align: center;
