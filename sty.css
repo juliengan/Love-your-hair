@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
-.burger_menu{
+nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -51,7 +51,8 @@
     margin:5px;
 }
 .burger{
-    visibility: hidden;
+    display: none;
+    cursor: pointer;
 }
 
 
@@ -86,7 +87,10 @@
 
 
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 768px) {
+    body{
+      /*overflow-x: hidden;*/
+    }
     .grow {
         font: 24px/72px "Titan One";
         text-align: center;
@@ -104,16 +108,26 @@
         position: absolute;
         right:0px;
         height: 92vh;
-        top:15vh;
+        top:26vh;
         background-color: #5D4954;
         display: flex;
         flex-direction: column;
-      
+        align-items: center;
+        width:50%;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
     }
     .burger{
-        visibility: visible;
+        display: block;
     }
+    .nav_burger li{
+        /*opacity:0;*/
+    }
+}
 
+.burger:active{
+    transition: translateX(0%);
+    background-color: blueviolet;
     
 }
 
@@ -154,7 +168,7 @@ html {
   }
 
 body { 
-    overflow-x: hidden;
+   /* overflow-x: hidden;*/
     
 /*liste des produits*/
     font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
