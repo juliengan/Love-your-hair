@@ -7,7 +7,7 @@
     align-items: center;
     min-height: 8vh;
     font-family: 'Poppins','sans-serif';
-    background-color: #ca3333;
+    background-color: #5D4954;
 }
 
 .title_burger{
@@ -102,10 +102,19 @@
     }
     .nav_burger{
         position: absolute;
+        right:0px;
+        height: 92vh;
+        top:15vh;
+        background-color: #5D4954;
+        display: flex;
+        flex-direction: column;
+      
     }
     .burger{
         visibility: visible;
     }
+
+    
 }
 
 article {
