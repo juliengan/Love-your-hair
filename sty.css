@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
-nav{
+.burger_menu{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -89,7 +89,7 @@ nav{
 
 @media screen and (max-width: 768px) {
     body{
-      /*overflow-x: hidden;*/
+      overflow-x: hidden;
     }
     .grow {
         font: 24px/72px "Titan One";
@@ -107,7 +107,7 @@ nav{
     .nav_burger{
         position: absolute;
         right:0px;
-        height: 92vh;
+        height: 110vh;
         top:26vh;
         background-color: #5D4954;
         display: flex;
