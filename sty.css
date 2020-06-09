@@ -104,8 +104,8 @@
     .nav_burger{
         position: absolute;
         right:0px;
-        height: 110vh;
-        top:26vh;
+        height: 150vh;
+        top:18vh;
         background-color: #5D4954;
         display: flex;
         flex-direction: column;
@@ -127,7 +127,16 @@
  
 }
 
-
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform:translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0px);
+    }
+}
 
 article {
     background-color: rgb(168, 170, 189);
