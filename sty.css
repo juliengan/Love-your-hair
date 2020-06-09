@@ -10,6 +10,7 @@
     min-height: 8vh;
     font-family: 'Poppins','sans-serif';
     background-color: #5D4954;
+    opacity: 40%;
 }
 
 
@@ -73,7 +74,15 @@
     z-index: 1;   
 }
 
+.nav_burger li a:hover{
+    text-shadow:#ffe69a 0 -1px 0,
+    #ff6767 2px 2px 0,
+    #ca3333 3px 3px 0,
+    #770a0c 4px 4px 0,
+    #333 5px 5px 10px;
+    color:#FFE5BF;
 
+}
 
 @media screen and (max-width: 768px) {
     body{
@@ -111,15 +120,7 @@
     .nav_burger li{
         /*opacity:0;*/
     }
-    .nav_burger li a:hover{
-        text-shadow:#ffe69a 0 -1px 0,
-        #ff6767 2px 2px 0,
-        #ca3333 3px 3px 0,
-        #770a0c 4px 4px 0,
-        #333 5px 5px 10px;
-        color:#FFE5BF;
     
-    }
     .nav-active{
     transform: translateX(0%);
     }
