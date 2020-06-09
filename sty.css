@@ -12,21 +12,7 @@
     background-color: #5D4954;
 }
 
-.title_burger{
 
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 20px;
-
-    
-    text-shadow:#ffe69a 0 -1px 0,
-    #ff6767 2px 2px 0,
-    #ca3333 3px 3px 0,
-    #770a0c 4px 4px 0,
-    #333 5px 5px 10px;
-    color:#FFE5BF;
-
-}
 
 .nav_burger{
     display:flex;
@@ -125,10 +111,19 @@
     .nav_burger li{
         /*opacity:0;*/
     }
+    .nav_burger li a:hover{
+        text-shadow:#ffe69a 0 -1px 0,
+        #ff6767 2px 2px 0,
+        #ca3333 3px 3px 0,
+        #770a0c 4px 4px 0,
+        #333 5px 5px 10px;
+        color:#FFE5BF;
+    
+    }
     .nav-active{
     transform: translateX(0%);
-
-}
+    }
+ 
 }
 
 
@@ -328,7 +323,7 @@ li a img{
     #770a0c 4px 4px 0,
     #333 5px 5px 10px;
     color:#FFE5BF;
-    background-color:#fff;
+    
 }
 
 .title:hover{
