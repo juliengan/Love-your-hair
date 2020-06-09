@@ -2,6 +2,7 @@
 
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
         <link rel="stylesheet" href="sty.css">
 
         <link rel="stylesheet" href="StyleDIY.css">
@@ -39,12 +40,16 @@
             <script src="haircare.js"></script>
             
 
-            
-
-
             </div>
             <script src="haircare.js"></script>
         </header>
+
+
+
+
+
+
+
             
 
         <article id="article"><div class="grow">Face care routine</div>
@@ -55,13 +60,16 @@
             <h1>Figure out your skin type first!</h1>
             <nav class="navigationFace">
             <div class="menuFACE">
-                <button type="button" id="Normal_nav" class="menu_Face">Normal</button>
-                <button type="button" id="Dry_nav" class="menu_Face">Dry</button>
-                <button type="button" id="Oily_nav" class="menu_Face">Oily</button>
-                <button type="button" id="Combination skin_nav" class="menu_Face">Combination skin</button>
+                
+                <button type="button" id="Normal_nav" class="menu_Face" formnovalidate onclick="return showNormal();">Normal</button>
+                <button type="button" id="Dry_nav" class="menu_Face" formnovalidate onclick="return showDry();">Dry</button>
+                <button type="button" id="Oily_nav" class="menu_Face" formnovalidate onclick="return showOily();">Oily</button>
+                <button type="button" id="Combination skin_nav" class="menu_Face" formnovalidate onclick="return showCombinationskin();">Combination skin</button>
             </div>            
-        </nav>
-        </article>
+        </nav>  
+
+
+
 
 
 <div id="Normal">
@@ -83,9 +91,6 @@
 
                   
 
-                
-
-
 
 
 <div id="Oily">
@@ -106,6 +111,7 @@
             </div>      
 
                  
+
 
                   
             
