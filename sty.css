@@ -196,7 +196,7 @@ li a img{
 
 }
 
-.nav li, .nav_footer li{
+.nav li{
     display:inline-block;
     right: 0;
     padding: 0px 20px;
@@ -342,7 +342,64 @@ p{
 
 .learn_more button:hover{
     background-color: #B584C1;
+    color: white;
 }
+
+.contacts img{
+    margin: 0px 20px;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bordure{
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    margin-left: 32px;
+    margin-bottom: 10px;
+}
+
+.nav_footer li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.site-footer h2{
+    color: black;
+     font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.aboutus button{
+    background-color: #AA90B1;
+    border-radius: 10px 100px / 120px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.aboutus button:hover{
+    background-color: #B584C1;
+    color: white;
+}
+
+.credit{
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+.credit p{
+    font-size: 12px;
+    color: black;
+    margin-top: 25px.
+}
+
 
 /*******************it's your turn form**********************/
 
