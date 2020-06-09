@@ -223,22 +223,6 @@ li a img{
 
 }
 
-
-
-.nav_footer button{
-    padding: 9px 25px;
-    background-color: #AA90B1;
-    border-radius: 10px 100px / 120px;
-    border:none;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-.nav_footer button:hover{
-    background-color:#B584C1;
-    color: white;
-}
-
 .title{
     display: flex;
     flex-wrap: wrap;
@@ -373,7 +357,7 @@ p{
 
 .nav_footer li{
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 .site-footer h2{
