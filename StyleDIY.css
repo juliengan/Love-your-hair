@@ -2,10 +2,8 @@
 
 .banner{
     width: 80%;
-    height: 40%;
     left: 100px;
     position: relative;    
-    margin-bottom: 40px;
     overflow: hidden;
 }
 

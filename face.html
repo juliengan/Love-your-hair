@@ -2,8 +2,8 @@
 
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
         <link rel="stylesheet" href="sty.css">
-
         <link rel="stylesheet" href="StyleDIY.css">
         <title>Cosmetic_NGAU_NGAN_EL_AJROUDI</title>
 
@@ -28,6 +28,7 @@
                     <li><a href="it'syourturn.html">It's your turn</a></li>
                 </ul>
             </nav>
+            </div>
 
 <div class='container' >
               <img src="terre.webp" alt=""/>
@@ -35,16 +36,18 @@
               <img src="lotus.webp" alt=""/>
               <img src="biocosmetic.webp" alt=""/>
               <img src="olive-oil.jpg" alt=""/>
-            </div>
+</div>
             <script src="haircare.js"></script>
-            
-
-            
-
-
-            </div>
             <script src="haircare.js"></script>
+        
         </header>
+
+
+
+
+
+
+
             
 
         <article id="article"><div class="grow">Face care routine</div>
@@ -55,21 +58,25 @@
             <h1>Figure out your skin type first!</h1>
             <nav class="navigationFace">
             <div class="menuFACE">
-                <button type="button" id="Normal_nav" class="menu_Face">Normal</button>
-                <button type="button" id="Dry_nav" class="menu_Face">Dry</button>
-                <button type="button" id="Oily_nav" class="menu_Face">Oily</button>
-                <button type="button" id="Combination skin_nav" class="menu_Face">Combination skin</button>
+                
+                <button type="button" id="Normal_nav" class="menu_Face" formnovalidate onclick="return showNormal();">Normal</button>
+                <button type="button" id="Dry_nav" class="menu_Face" formnovalidate onclick="return showDry();">Dry</button>
+                <button type="button" id="Oily_nav" class="menu_Face" formnovalidate onclick="return showOily();">Oily</button>
+                <button type="button" id="Combination skin_nav" class="menu_Face" formnovalidate onclick="return showCombinationskin();">Combination skin</button>
             </div>            
-        </nav>
-        </article>
+        </nav>  
+    </article>
+
+
+
 
 
 <div id="Normal">
             <div class="slide-container">
                 
                     <img src="FACECARE/normal.png" style="width:70%; height: 70%">
-                </div>
-
+            </div>
+</div>
                 
 
 
@@ -80,11 +87,8 @@
                     <img src="FACECARE/dry.png" style="width:70%; height: 70%">
             </div>
 
-
+</div>
                   
-
-                
-
 
 
 
@@ -95,40 +99,51 @@
                 
             </div>    
 
-                  
+</div>                 
                 
 
 <div id="Combination skin">
             <div class="slide-container">
 
-                    <img src="FACECARE/combination.png" style="width:70%; height: 70%">
+                <img src="FACECARE/combination.png" style="width:70%; height: 70%">
                   
             </div>      
-
+</div>
                  
 
-                  
-            
 
 
 
-
-
-
-
+<script type="text/javascript" src="face.js"></script>
         
     
     </body>
-</div>
+
     <footer class="site-footer">
-        <ul class="nav_footer">
-            <li><a href="https://www.facebook.com/">Facebook<img src="facebook.png" alt=""/></a></li>
-                <li><a href="https://twitter.com/explore">Twitter<img src="twitter.png" alt=""/></a></li>
-            <li><a class="credits">credits</a></li>
-            <a href="aboutus.html">
-                <button type="button" id="songs" class="menu_button" formnovalidate >About us</button>
-            </a>
-        </ul> 
+        <div class="footer">
+            <div class="contacts">
+                <h2>Contact us</h2>
+                <div class="bordure"></div>
+                <ul class="nav_footer">
+                    <li><a href="https://www.facebook.com/">Facebook<img src="facebook.png" alt=""/></a></li>
+                    <li><a href="https://twitter.com/explore">Twitter<img src="twitter.png" alt=""/></a></li>
+                </ul> 
+            </div>
+
+            <div class="aboutus" style="margin: 0px 60px 0px;">
+                <h2>Learn more</h2>
+                <div class="bordure"></div>
+                <a href="aboutus.html">
+                    <button type="button" id="songs" class="menu_button" formnovalidate >About us</button>
+                </a>
+            </div>
+
+            <div class="credit" style="margin: 0px 50px 0px;">
+                <h2>Credits</h2>
+                <div class="bordure"></div>
+                <p >© BIOCOSMETIC ALL RIGTHS RESERVED</p>
+            </div>
+        </div>
     </footer>
 </html>
 
