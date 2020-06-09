@@ -9,8 +9,8 @@
     align-items: center;
     min-height: 8vh;
     font-family: 'Poppins','sans-serif';
-    background-color: #5D4954;
-    opacity: 40%;
+    background-color: black;
+    opacity: 60%;
 }
 
 
@@ -18,7 +18,7 @@
 .nav_burger{
     display:flex;
     justify-content: space-around;
-    width:30%
+    width:50%
 }
 
 .nav_burger li{
@@ -29,8 +29,7 @@
     color:white;
     text-decoration: none;
     letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .burger div{
@@ -75,13 +74,13 @@
 }
 
 .nav_burger li a:hover{
-    text-shadow:#ffe69a 0 -1px 0,
-    #ff6767 2px 2px 0,
-    #ca3333 3px 3px 0,
-    #770a0c 4px 4px 0,
-    #333 5px 5px 10px;
-    color:#FFE5BF;
 
+        text-shadow:#554f3f 0 -1px 0,
+        #553d3d 2px 2px 0,
+        #291d1d 3px 3px 0,
+        #770a0c 4px 4px 0,
+        #333 5px 5px 10px;
+        transition: all 0.3s ease 0s;
 }
 
 @media screen and (max-width: 768px) {
@@ -97,7 +96,11 @@
     }
     .container{
         visibility: hidden;
+      
     }
+
+    
+
     .navigation{
         visibility: hidden;
     }
@@ -201,6 +204,11 @@ body {
   
 }
 
+img{
+
+    opacity: 70%;
+}
+
 
 
 .smooth { 
@@ -289,7 +297,7 @@ li a img{
     width:20px;
 }
 
-.nav{
+/*.nav{
     list-style: none;
 
 }
@@ -305,14 +313,16 @@ li a img{
 }
 
 .nav li a:hover, .nav_footer li a:hover{
-    text-shadow:#ffe69a 0 -1px 0,
+    text-shadow:#554f3f 0 -1px 0,
     #ff6767 2px 2px 0,
     #ca3333 3px 3px 0,
     #770a0c 4px 4px 0,
     #333 5px 5px 10px;
-    color:#FFE5BF;
+   
+    
+    transition: all 0.3s ease 0s;
 
-}
+}*/
 
 .title{
     display: flex;
@@ -356,12 +366,6 @@ li a img{
 
 
 p{
-    /*letter-spacing: 1px;
-    font-size:15px;
-    width: 640px;
-    line-height: 25px;
-    margin-left: 40px;
-    padding-top: 10px;  */
     margin:10px;
 }
 
