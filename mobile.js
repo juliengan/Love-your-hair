@@ -4,10 +4,12 @@ const navSlide =()=>{
     console.log(burger);
     console.log(nav);
     burger.addEventListener('click',()=>{
-        nav.classList.toggle('.burger:active');
+        nav.classList.toggle('nav-active');
+        console.log('burger clicked');
     });
 }
 
 
+  
 navSlide();
 

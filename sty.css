@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
+
+
 .burger_menu{
     display: flex;
     justify-content: space-around;
@@ -123,13 +125,13 @@
     .nav_burger li{
         /*opacity:0;*/
     }
+    .nav-active{
+    transform: translateX(0%);
+
+}
 }
 
-.burger:active{
-    transition: translateX(0%);
-    background-color: blueviolet;
-    
-}
+
 
 article {
     background-color: rgb(168, 170, 189);
