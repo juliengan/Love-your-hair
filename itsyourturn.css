@@ -24,3 +24,55 @@
 
 @-webkit-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
         @keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+
+/*GAME*/
+
+*{
+  box-sizing: border-box;
+}
+
+
+.memory-game{
+  width: 840px;
+  height: 840px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 70px;
+  perspective: 1000px;
+
+}
+
+.memory-card{
+  width: calc(25% - 10px);
+  height: calc(33.333% - 10px);
+  margin: 5px;
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .5s;
+}
+
+
+.memory-card:active {
+   transform: scale(0.97);
+   transition: transform .2s;
+ }
+
+.memory-card.flip{
+  transform: rotateY(180deg);
+}
+
+
+.front-face, .back-face{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  position: absolute;
+  border: 2px solid #200047;
+  backface-visibility: hidden;
+}
+
+.front-face {
+  transform: rotateY(180deg);
+}
