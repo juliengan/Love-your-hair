@@ -43,7 +43,7 @@
 }
 
 .nav_burger li a:hover,.site-footer a:hover{
-
+    /*color:rgb(158, 98, 108);*/
     text-shadow:#554f3f 0 -1px 0,
     #553d3d 2px 2px 0,
     #291d1d 3px 3px 0,
