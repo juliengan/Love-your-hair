@@ -22,6 +22,7 @@
 }
 
 .nav_burger li{
+    font-size: 19px;
     list-style: none;
 }
 
@@ -39,6 +40,7 @@
     height:5px;
     background-color:white;
     margin:5px;
+    transition: all 0.3s ease;
 }
 .burger{
     display: none;
@@ -75,6 +77,8 @@
     z-index: 1;   
 }
 
+
+
 .nav_burger li a:hover,.site-footer a:hover{
 
         text-shadow:#554f3f 0 -1px 0,
@@ -107,8 +111,8 @@
         position: absolute;
         right:0px;
         height: 150vh;
-        top:18vh;
-        background-color: #5D4954;
+        top:15vh;
+        background-color: black;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -119,14 +123,24 @@
     .burger{
         display: block;
     }
-    .nav_burger li{
-        /*opacity:0;*/
-    }
+    /*.nav_burger li{
+        opacity:0;
+    }*/
     
     .nav-active{
     transform: translateX(0%);
     }
  
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
 }
 
 @keyframes navLinkFade{
@@ -142,8 +156,6 @@
 
 article {
     background-color: rgb(168, 170, 189);
-    
-    margin: auto auto 50px auto;
     width: 100vw;
     max-width: 820px;
 }
@@ -165,22 +177,27 @@ article {
     max-width: 1200px;
 }
 
+/*footer en bas de page*/
+html,body{
+    height: 100%;
+}
 
-
-
+.page-wrap{
+    min-height: 100%;
+}
+/***********************/
 
 html {
     scroll-behavior: smooth;
     /*liste des produits*/
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: none;
+    /*-webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;*/
   }
 
 body { 
    /* overflow-x: hidden;*/
-    
-/*liste des produits*/
-    font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
+
+  font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
     line-height: 1.5;
@@ -247,19 +264,24 @@ html, body {
 }
 .site-footer, .page-wrap:after {
     /* .push must be the same height as footer */
-      height: 142px; 
+   left:0px;
+   bottom:0px;
+   height:152px;
+   width:100%;
+    position: relative;
+
+
 }
 
-li, button, label{/*li et a enlevé*/
+button, label{/*li et a enlevé*/
     font-weight: 500;
-    font-size: 16px;
+    font-size: 12px;
     color: #000608;
     text-decoration: none;
 
     margin: 8px ;
     text-transform: uppercase;
     border: none;
-    font-size: .875rem;
     letter-spacing: 2px;
     
     min-height: 36px;
@@ -276,7 +298,6 @@ li, button, label{/*li et a enlevé*/
     margin: 8px ;
     text-transform: uppercase;
     border: none;
-    font-size: .875rem;
     letter-spacing: 2px;
     
     min-height: 36px;
@@ -419,7 +440,7 @@ p{
     width: 100%;
     background-size: cover;
     height: 100vh;
-    margin-bottom: 100px;
+    
     opacity: 77%;
 }
 

@@ -9,12 +9,21 @@ const navSlide =()=>{
     //Toggle the burger_nav
     burger.addEventListener('click',()=>{
         nav.classList.toggle('nav-active');
-        console.log('burger clicked');
+    
+    //Animates the links doesn't work
+    /*navLinks.forEach((link,index)=>{
+        if (link.style.animation){
+            link.getElementsByClassName.animation = '';
+        }else{
+            link.getElementsByClassName.animation = 'navLinkFade 0.5s ease-in forwards ${index/7 + 2}s';
+        }
+        console.log(index/7);
+    });*/
+
+    //Hamburger menu animation
+    burger.classList.toggle('toggle');
     });
-    //Animates the links
-    navLinks.forEach((link,index)=>{
-        console.log(index);
-    })
+    
 }
 
 
