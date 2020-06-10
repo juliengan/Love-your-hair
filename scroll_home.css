@@ -7,15 +7,15 @@ body {
 }
  
 #part1 {
-    background: url("home_images/flower.jpg") center 0 no-repeat fixed;
+    background: url("body.jpg") center 0 no-repeat fixed;
 }
  
 #part2 {
-    background: url("home_images/forest.jpg") center 0 no-repeat fixed;
+    background: url("terre.webp") center 0 no-repeat fixed;
 }
  
 #part3 {
-    background: url("home_images/water.jpg") center 0 no-repeat fixed;
+    background: url("bio.jpg") center 0 no-repeat fixed;
         color: #170b27;
         background-color: #fdfbfb77;
      
