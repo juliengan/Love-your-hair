@@ -1,6 +1,4 @@
-.slide-container img {
-	margin: auto;
-}
+
 .slide-container {
 
 
@@ -11,16 +9,8 @@
 }
 
 
-.menuFace button{
-	padding: 9px 25px;
-    background-color: rgb(231,212,255);
-    border:none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    margin-top: 40px;
-    text-align: center;
-}
+
+
 
 .paragraphe p{
   background-color: white;
@@ -39,24 +29,30 @@
 }
 
 
-.menuFace{
-  text-align: center;
-  margin: 20px;
-  left: 100px;
 
-}
 
-.menuFace button:hover{
+.navigationFace button:hover{
     background-color:#9786ad;
     color: white;
-    text-align: center;
+    
 }
+.navigationFace button{
+  text-align: center;
+  align-items: center;
+  padding: 9px 25px;
+    background-color: rgb(231,212,255);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+    
+ 
+}
+
+
 .navigationFace {
   text-align: center;
 }
-
-
-
 
 
 
