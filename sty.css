@@ -29,7 +29,9 @@
     color:white;
     text-decoration: none;
     letter-spacing: 1px;
-    font-size: 13px;
+    font-size: 14px;
+
+
 }
 
 .burger div{
@@ -73,7 +75,7 @@
     z-index: 1;   
 }
 
-.nav_burger li a:hover{
+.nav_burger li a:hover,.site-footer a:hover{
 
         text-shadow:#554f3f 0 -1px 0,
         #553d3d 2px 2px 0,
@@ -98,9 +100,6 @@
         visibility: hidden;
       
     }
-
-    
-
     .navigation{
         visibility: hidden;
     }
@@ -251,7 +250,7 @@ html, body {
       height: 142px; 
 }
 
-li, a, button, label{
+li, button, label{/*li et a enlevé*/
     font-weight: 500;
     font-size: 16px;
     color: #000608;
@@ -268,6 +267,28 @@ li, a, button, label{
     pointer-events: auto;
 }
 
+.site-footer a{
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+
+    margin: 8px ;
+    text-transform: uppercase;
+    border: none;
+    font-size: .875rem;
+    letter-spacing: 2px;
+    
+    min-height: 36px;
+    padding: 0 8px;
+    pointer-events: auto;
+}
+
+.contacts h2{
+    color: blanchedalmond;
+}
+
+
 
 
 .navigation{
@@ -283,7 +304,8 @@ li, a, button, label{
 
 
 .site-footer{
-    background-color: rgb(231,212,255);
+    background-color: black;
+    opacity: 60%;
 }
 
 div img{
@@ -325,6 +347,12 @@ li a img{
 }*/
 
 .title{
+
+
+    text-decoration: none;
+
+    margin: 8px ;
+
     display: flex;
     flex-wrap: wrap;
     text-transform: uppercase;
@@ -445,7 +473,7 @@ p{
 .bordure{
     width: 70px;
     height: 2px;
-    background-color: black;
+    background-color: white;
     margin-left: 32px;
     margin-bottom: 10px;
 }
@@ -456,7 +484,7 @@ p{
 }
 
 .site-footer h2{
-    color: black;
+    color: white;
      font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
 
@@ -465,6 +493,7 @@ p{
 
 .aboutus button{
     background-color: #AA90B1;
+    color: blanchedalmond;
     border-radius: 10px 100px / 120px;
     border:none;
     cursor: pointer;
@@ -473,7 +502,7 @@ p{
 
 .aboutus button:hover{
     background-color: #B584C1;
-    color: white;
+    color: black;
 }
 
 .credit{
@@ -482,8 +511,8 @@ p{
 }
 .credit p{
     font-size: 12px;
-    color: black;
-    margin-top: 25px.
+    color: white;
+    margin-top: 25px;
 }
 
 
