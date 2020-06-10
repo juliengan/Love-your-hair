@@ -142,42 +142,7 @@
 }
 
 .nav_footer img:hover{
-  background-color: grey;
+  background-color: #B584C1;
   border-radius: 20%;
 }
 
-.slider{
-  width:250px;
-  height:100px;
-  padding:0;
-  position:relative;
-  margin:50px;
-  
-}
-
-#slider-list{
-  list-style-type:none;
-  display:flex;
-  margin:0;
-  position:absolute;
-  left:0;
-  top:0;
-  padding:0;
-  animation:slide 15s linear infinite;
-}
-
-#slider-list img{
-  width:320px;
-  height:200px;
-  margin-right: 20px;
-}
-
-@keyframes slide{
-  0%{left:0px;}
-  10%{left:0px;}
-  35%{left:-100%;}
-  45%{left:-100%;}
-  75%{left:-200%;}
-  85%{left:-200%;}
-  90%{left:0px;}
-}

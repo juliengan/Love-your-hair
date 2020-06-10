@@ -360,7 +360,7 @@ p{
 }
 
 .contacts img{
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 
@@ -420,6 +420,7 @@ p{
   width:250px;
   height:100px;
   padding:0;
+  margin: auto;
   position:relative;
   margin:50px;
   
