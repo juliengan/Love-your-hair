@@ -35,17 +35,20 @@
 
 
 .memory-game{
-  width: 840px;
-  height: 840px;
+  width: 640px;
+  height: 640px;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   perspective: 1000px;
 
 }
 
-.memory-card{
+
+
+
+.game-card{
   width: calc(25% - 10px);
   height: calc(33.333% - 10px);
   margin: 5px;
@@ -56,17 +59,17 @@
 }
 
 
-.memory-card:active {
+.game-card:active {
    transform: scale(0.97);
    transition: transform .2s;
  }
 
-.memory-card.flip{
+.game-card.flip{
   transform: rotateY(180deg);
 }
 
-.memory-card:hover{
-  background-color: orange;
+.game-card:hover{
+  background-color: #c97200;
 }
 
 
@@ -89,44 +92,51 @@
   margin: 20px; 
 }
 
-.game-info{
+#game-info{
   margin-right: 30px;
+  visibility: hidden; 
+  font-size: 20px;
+  color: #3c3b6e;
 }
 
 
 .game-title{
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
-}
-/*
-.overlay-text{
-  display: none;
-  color: red;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  justify-content: center;
-  align-items: center;
-  z-index: 100;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 100px;
-
+  font-size: 35px;
 }
 
-.overlay-text.visible{
+button{
+  padding: 9px 25px;
+  background-color: rgb(231,212,255);
+  border:none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+#board{
   display: flex;
-  animation: overlay-grow 500ms forwards;
+  flex-wrap: wrap;
+  margin-bottom: 80px; 
+  visibility: hidden;
+  width: 100%;
+  background: url(YT/10.jfif);
 }
 
-@keyframes overlay-grow{
-  from {
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 0;
-  }
-  to{
-    background-color: rgba(0, 0, 0, .8);
-    font-size: 10em;
-  }
-}*/
+button:hover{
+    background-color:#9786ad;
+    color: white;
+}
+
+.rules{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+
+}
+.rules p{
+  color: black;
+}

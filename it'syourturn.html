@@ -100,75 +100,77 @@
 
     <body>
         <h1 class="game-title">Memory game</h1>
+        
+        <div class="rules">
+            <p>Hey, let's play the memory game. The goal of this game is to match the pairs of cards 2 by 2. 
+            If the cards flipped face up are the same you win, otherwise the cards are automatically turned face down and you need to make a new try. Try to find all the pairs in 50 seconds. Good luck !</p>
+        </div>
 
-        <div class="overlay-text ">
-            Click to start
+        <div class="startbutton" style=" text-align: center;">
+          <button onclick="startGame()" class="gameStart">Click to start</button>
         </div>
         
 
         <div class="game">
-            <div class="game-info-container">
-                <div class="game-info">
-                    Time :<span id="timer">50</span>
-                </div>
-                <div  class="game-info">
-                    Flips <span id="flips">0</span>
+            <div class="game-info-container" >
+                <div id="game-info">
+                    Time: <span id="timer" >50</span>
                 </div>
             </div>
         </div>
-
-        <div class="memory-game">
-            <div class="memory-card" data-framework="1">
-                <img class="front-face" src="YT/card1.png" alt="1">
-                <img class="back-face" src="YT/logo.png" alt="badge">
+        <div id="board">
+            <div class="memory-game">
+                <div class="game-card" data-nb="1">
+                    <img class="front-face" src="YT/card1.png" alt="1">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="1">
+                    <img class="front-face" src="YT/card1.png" alt="1">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="2">
+                    <img class="front-face" src="YT/card2.png" alt="2">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="2">
+                    <img class="front-face" src="YT/card2.png" alt="2">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="3">
+                    <img class="front-face" src="YT/card3.png" alt="3">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="3">
+                    <img class="front-face" src="YT/card3.png" alt="3">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="4">
+                    <img class="front-face" src="YT/card4.png" alt="4">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="4">
+                    <img class="front-face" src="YT/card4.png" alt="4">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="5">
+                    <img class="front-face" src="YT/card5.png" alt="5">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="5">
+                    <img class="front-face" src="YT/card5.png" alt="5">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="6">
+                    <img class="front-face" src="YT/card6.png" alt="6">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                <div class="game-card" data-nb="6">
+                    <img class="front-face" src="YT/card6.png" alt="6">
+                    <img class="back-face" src="YT/logo.png" alt="badge">
+                </div>
+                
             </div>
-            <div class="memory-card" data-framework="1">
-                <img class="front-face" src="YT/card1.png" alt="1">
-                <img class="back-face" src="YT/logo.png" alt="badge">
-            </div>
-            <div class="memory-card" data-framework="2">
-                <img class="front-face" src="YT/card2.png" alt="2">
-                <img class="back-face" src="YT/logo.png" alt="badge">
-            </div>
-            <div class="memory-card" data-framework="2">
-                <img class="front-face" src="YT/card2.png" alt="2">
-                <img class="back-face" src="YT/logo.png" alt="badge">
-            </div>
-            <div class="memory-card" data-framework="3">
-                <img class="front-face" src="YT/card3.png" alt="3">
-                <img class="back-face" src="YT/logo.png" alt="badge">
-            </div>
-            <div class="memory-card" data-framework="3">
-                <img class="front-face" src="YT/card3.png" alt="3">
-                <img class="back-face" src="YT/logo.png" alt="badge">
-            </div>
-            <div class="memory-card" data-framework="4">
-                <img class="front-face" src="YT/card4.png" alt="4">
-                <img class="back-face" src="YT/logo.png" alt="badge">
-            </div>
-            <div class="memory-card" data-framework="4">
-                <img class="front-face" src="YT/card4.png" alt="4">
-                <img class="back-face" src="YT/logo.png" alt="badge">
-            </div>
-            <div class="memory-card" data-framework="5">
-                <img class="front-face" src="YT/card5.png" alt="5">
-                <img class="back-face" src="YT/logo.png" alt="badge">
-            </div>
-            <div class="memory-card" data-framework="5">
-                <img class="front-face" src="YT/card5.png" alt="5">
-                <img class="back-face" src="YT/logo.png" alt="badge">
-            </div>
-            <div class="memory-card" data-framework="6">
-                <img class="front-face" src="YT/card6.png" alt="6">
-                <img class="back-face" src="YT/logo.png" alt="badge">
-            </div>
-            <div class="memory-card" data-framework="6">
-                <img class="front-face" src="YT/card6.png" alt="6">
-                <img class="back-face" src="YT/logo.png" alt="badge">
-            </div>
-            
         </div>
-
 
 
         <script src="itsyourturn.js"></script>
@@ -200,6 +202,7 @@
                 <p >© BIOCOSMETIC ALL RIGTHS RESERVED</p>
             </div>
         </div>
-    </footer></body>
+    </footer>
+</body>
 </html>
 

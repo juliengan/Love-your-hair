@@ -1,28 +1,28 @@
-const cards = document.querySelectorAll('.memory-card');
+const cards = document.querySelectorAll('.game-card');
 
-let hasFlippedCard = false;
+let flippedCard = false;
 let firstCard, secondCard;
 let lockBoard = false;
 var nbmatch =0;
 var count=50;
 
-var counter=setInterval(timer, 1000);
-function timer()
-{
- count=count-1;
- if (count <= 0)
- {
-  return;
- }
- if (count === 50){
- 	alert("You are too late");
- 	location.remove();
- }
 
- document.getElementById("timer").innerHTML=count + " secs";
+function startGame() {
+	document.getElementById("board").style.visibility="visible";
+	document.getElementById("game-info").style.visibility="visible";
+	var timing = setInterval(function function1(){ 
+	document.getElementById("timer").innerHTML = count + "&nbsp" + "seconds";
+
+	count--;
+		if(count <= 0){	
+		    clearInterval(timing);
+			document.getElementById("timer").innerHTML = "Time is up!"
+			alert("Too late !");
+			location.reload();
+	    }
+	}, 1000);
+
 }
-
-
 
 
 function flipCard() {
@@ -30,9 +30,9 @@ function flipCard() {
 	if (this === firstCard) return;
 	this.classList.add('flip');
 
-	if (!hasFlippedCard) {
+	if (!flippedCard) {
 	//firstClick
-	 hasFlippedCard = true;
+	 flippedCard = true;
 	 firstCard = this;
 	 return;
 	}
@@ -43,16 +43,18 @@ function flipCard() {
 	checkMatch();
 }
 
+
 function checkMatch(count){
 	//do cards match ?
-	if (firstCard.dataset.framework === secondCard.dataset.framework) {
+	if (firstCard.getAttribute('data-nb') === secondCard.getAttribute('data-nb')) {
 		//it is a match
 		match();
 		nbmatch++;
 	  	if (nbmatch === 6) {
-	  		alert("You have matched all the images");
+	  		alert("Congratulations ! You have matched all the images");
 	  		location.reload();
 	  	}
+	  	
 	}
 	else{
 		//not a match
@@ -78,7 +80,7 @@ function notMatch(){
 }
 
 function resetBoard() {
-	hasFlippedCard = false;
+	flippedCard = false;
 	lockBoard = false;
 	firstCard=null;
 	secondCard= null;
