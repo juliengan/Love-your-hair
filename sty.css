@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
-
+#global {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; /* largeur obligatoire pour être centré */
+  }
 
 
 .grow {
@@ -69,7 +73,7 @@ html {
 
 
 body { 
-   
+
     overflow-x: hidden;
 
   font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
@@ -278,7 +282,7 @@ li a img{
 
  div article{
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     margin: 8px;
     padding: 0 8px;
     letter-spacing: 1px;
