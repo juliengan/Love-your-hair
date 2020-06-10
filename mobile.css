@@ -53,9 +53,7 @@
 }
 
 @media screen and (max-width: 768px) {
-body{
-  overflow-x: hidden;
-}
+
 .grow {
     font: 24px/72px "Titan One";
     text-align: center;

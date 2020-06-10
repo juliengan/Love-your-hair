@@ -2,63 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
 
-
-.burger_menu{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    font-family: 'Poppins','sans-serif';
-    background-color: black;
-    opacity: 60%;
-}
-
-
-
-.nav_burger{
-    display:flex;
-    justify-content: space-around;
-    width:50%
-}
-
-.nav_burger li{
-    font-size: 19px;
-    list-style: none;
-}
-
-.nav_burger a{
-    color:white;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-size: 14px;
-
-
-}
-
-.burger div{
-    width:25px;
-    height:5px;
-    background-color:white;
-    margin:5px;
-    transition: all 0.3s ease;
-}
-.burger{
-    display: none;
-    cursor: pointer;
-}
-
-
-/*liste des produits*/
-.overall ul li a img{
-    height:200px;
-    width: 200px;
-}
-
-.overall ul{
-    
-    width:30%;
-}
-
 .grow {
     font: 41px/57px "Titan One";
         text-shadow:#ffe69a 0 -1px 0,
@@ -79,80 +22,7 @@
 
 
 
-.nav_burger li a:hover,.site-footer a:hover{
 
-        text-shadow:#554f3f 0 -1px 0,
-        #553d3d 2px 2px 0,
-        #291d1d 3px 3px 0,
-        #770a0c 4px 4px 0,
-        #333 5px 5px 10px;
-        transition: all 0.3s ease 0s;
-}
-
-@media screen and (max-width: 768px) {
-    body{
-      overflow-x: hidden;
-    }
-    .grow {
-        font: 24px/72px "Titan One";
-        text-align: center;
-    }
-    article{
-        width:100%;
-    }
-    .container{
-        visibility: hidden;
-      
-    }
-    .navigation{
-        visibility: hidden;
-    }
-    .nav_burger{
-        position: absolute;
-        right:0px;
-        height: 150vh;
-        top:15vh;
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width:50%;
-        transform: translateX(100%);
-        transition: 0.5s ease-in;
-    }
-    .burger{
-        display: block;
-    }
-    /*.nav_burger li{
-        opacity:0;
-    }*/
-    
-    .nav-active{
-    transform: translateX(0%);
-    }
- 
-}
-
-.toggle .line1{
-    transform: rotate(-45deg) translate(-5px,6px);
-}
-.toggle .line2{
-    opacity: 0;
-}
-.toggle .line3{
-    transform: rotate(45deg) translate(-5px,-6px);
-}
-
-@keyframes navLinkFade{
-    from{
-        opacity: 0;
-        transform:translateX(50px);
-    }
-    to{
-        opacity: 1;
-        transform:translateX(0px);
-    }
-}
 
 article {
     background-color: rgb(168, 170, 189);
@@ -195,7 +65,7 @@ html {
   }
 
 body { 
-   /* overflow-x: hidden;*/
+    overflow-x: hidden;
 
   font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -220,10 +90,7 @@ body {
   
 }
 
-img{
 
-    opacity: 70%;
-}
 
 
 
