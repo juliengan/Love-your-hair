@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    color:rgb(233, 222, 222);
+    font: Arial, Sans-Serif;
+    font-weight: bold;
+}
+ 
+#part1 {
+    background: url("home_images/flower.jpg") center 0 no-repeat fixed;
+}
+ 
+#part2 {
+    background: url("home_images/forest.jpg") center 0 no-repeat fixed;
+}
+ 
+#part3 {
+    background: url("home_images/water.jpg") center 0 no-repeat fixed;
+        color: #170b27;
+        background-color: #fdfbfb77;
+     
+        padding: 15px 15px;
+        border-radius: 10px;
+    
+}
+ 
+.inside {   
+    margin: 0px auto;
+    text-align:justify;
+         
+    width: 500px;
+    padding: 50px 0px;
+ 
+    height: 1200px;
+}
