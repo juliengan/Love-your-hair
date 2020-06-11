@@ -28,23 +28,16 @@
   color: black;
   text-align: center;
 }
+
 .paragraohe h1{
-text-align: center;
-align-items: center;
-
-
-
+  text-align: center;
+  align-items: center;
 }
 
 
 .paragraphe {
-text-align: center;
+  text-align: center;
 }
 
-.centre {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
 
