@@ -247,12 +247,9 @@ li a img{
 }*/
 
 .title{
-
-
-    text-decoration: none;
-
-    margin: 8px ;
-
+    text-decoration: none;    
+    margin-left: 10px;
+    margin-right: 300px;
     display: flex;
     flex-wrap: wrap;
     text-transform: uppercase;
@@ -263,15 +260,13 @@ li a img{
     min-height: 36px;
     padding: 4px 8px;
     pointer-events: auto;
-    left: 0;
-
+    
     text-shadow:#ffe69a 0 -1px 0,
     #ff6767 2px 2px 0,
     #ca3333 3px 3px 0,
     #770a0c 4px 4px 0,
     #333 5px 5px 10px;
     color:#FFE5BF;
-    
 }
 
 .title:hover{
@@ -285,7 +280,8 @@ li a img{
 
 header{
     text-align: center;
-    padding:50px;
+    padding:auto 50px;
+    padding-bottom: 40px;
 }
 
 

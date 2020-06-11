@@ -32,7 +32,7 @@ h2, p{
 	padding: 20px 15px;
 	display: flex;
 	flex-direction: column;
-	background-color: #b59eaa;
+	background-color: #acc2b5;
 	transition: 0.5s ease-in-out;
 }
 
@@ -48,7 +48,7 @@ h2, p{
 	position: relative;
 	text-align: center;
 	top: -40px;
-	left: 20px;
+	left: 10px;
 	z-index: 1;
 }
 
