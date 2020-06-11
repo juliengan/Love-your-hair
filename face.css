@@ -11,7 +11,7 @@
 }
 
 
-.menu_Face button{
+.navigationFace button{
 	padding: 9px 25px;
     background-color: rgb(231,212,255);
     border:none;
@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-.paragraphe p{
+.paragraphe {
   background-color: white;
   color: black;
   text-align: center;
@@ -31,6 +31,8 @@
 .paragraohe h1{
 text-align: center;
 align-items: center;
+
+
 
 }
 
