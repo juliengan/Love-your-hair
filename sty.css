@@ -54,11 +54,11 @@ article {
 }
 
 /*footer en bas de page*/
-html,body{
+/*html,body{
     height: 100%;
 }
 
-.page-wrap{
+/*.page-wrap{
     min-height: 100%;
 }
 /***********************/
@@ -73,7 +73,7 @@ html {
 
 
 body { 
-    min-height: 100%;
+   
     /*
     display: flex;
     flex-direction: column;*/
@@ -125,32 +125,32 @@ body {
 
 
 
-#page-wrap {
+/*#page-wrap {
      min-height: 100%;
-    /* equal to footer height */
+    /* equal to footer height 
      margin-bottom: -142px; 
  
-}
+}*/
 
 footer{
     margin-top: auto;
-
+    padding:30px;
 }
 
-.page-wrap:after {
+/*.page-wrap:after {
     content: "";
     display: block;
 }
 .site-footer, .page-wrap:after {
     /* .push must be the same height as footer */
-   left:0px;
+   /*left:0px;
    bottom:0px;
    height:152px;
    width:100%;
     position: relative;
 
 
-}
+}*/
 
 button, label{/*li et a enlevé*/
     font-weight: 500;
@@ -308,6 +308,7 @@ main{
     width:90vh;
     margin:0 auto;
     padding:30px 20px;
+    /*min-height: 100%;*/
 }
 
 .credits{
