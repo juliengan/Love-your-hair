@@ -283,6 +283,13 @@ li a img{
     color:transparent;
 }
 
+header{
+    text-align: center;
+    padding:50px;
+}
+
+
+
  div article{
     display: flex;
     /*flex-wrap: wrap;*/
@@ -297,7 +304,11 @@ p{
     margin:10px;
 }
 
-
+main{
+    width:90vh;
+    margin:0 auto;
+    padding:30px 20px;
+}
 
 .credits{
     color: #b9d3da;
