@@ -285,7 +285,7 @@ li a img{
 
 header{
     text-align: center;
-    padding: auto 50px;
+    padding:50px;
 }
 
 
@@ -445,7 +445,7 @@ p{
   left:0;
   top:0;
   padding:0;
-  animation:slide 20s linear infinite;
+  animation:slide 15s linear infinite;
 }
 
 #slider-list img{
