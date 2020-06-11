@@ -85,3 +85,14 @@ h2, p{
 h2{
 	text-transform: uppercase;
 }
+
+.content a{
+	background: #e4e4e4;
+	padding: 5px;
+	border-radius: 20%;
+}
+
+.content a:hover{
+	background: #3797a4;
+	
+}
