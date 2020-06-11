@@ -12,7 +12,8 @@
 .nav_burger{
     display:flex;
     justify-content: space-around;
-    width:30%
+    width:30%;
+   
 }
 
 .nav_burger li{
@@ -27,6 +28,7 @@
     letter-spacing: 1px;
     font-size: 14px;
     text-transform: uppercase;
+    padding: auto 17px;
 
 }
 
