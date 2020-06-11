@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-.paragraphe {
+.paragraphe p{
   background-color: white;
   color: black;
   text-align: center;
@@ -37,3 +37,6 @@ align-items: center;
 }
 
 
+.paragraphe {
+text-align: center;
+}
