@@ -1,4 +1,6 @@
-
+.slide-container img {
+	margin: auto;
+}
 .slide-container {
 
 
@@ -9,52 +11,27 @@
 }
 
 
-
-
+.menu_Face button{
+	padding: 9px 25px;
+    background-color: rgb(231,212,255);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+}
 
 .paragraphe p{
   background-color: white;
   color: black;
   text-align: center;
+}
+.paragraohe h1{
+text-align: center;
+align-items: center;
 
 }
-
-.paragraphe h1{
-  text-align: center;
-}
-
-.slide-container img{
-  background-color: white;
-  color: black;
-}
-
-
-
-
-.navigationFace button:hover{
-    background-color:#9786ad;
-    color: white;
-    
-}
-.navigationFace button{
-  text-align: center;
-  align-items: center;
-  padding: 9px 25px;
-    background-color: rgb(231,212,255);
-    border:none;
-    border-radius: 50px;
-    cursor: pointer;
-    margin-top: 40px;
-    
- 
-}
-
-
-.navigationFace {
-  text-align: center;
-}
-
-
-
 
 
