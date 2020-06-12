@@ -96,7 +96,9 @@ body{
 	height: 100px;
 	padding: 5px;
 }
-
+.about{
+	margin-bottom: 50px;
+}
 .about h1{
 	font-family: 'Lora', serif;
 	font-size: 52px;
@@ -105,3 +107,34 @@ body{
 	text-align: center;
 }
 
+.text-pj p{
+	color: black;
+	font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
+}
+
+.content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.content img{
+	width: 600px;
+
+}
+
+.imagepj{
+	padding: 0px;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.text-pj{
+	margin-top: 120px;
+	margin-left: -200px;
+	width: 40%;
+	
+	
+}
