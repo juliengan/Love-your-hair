@@ -8,6 +8,9 @@
     width: 60%; /* largeur obligatoire pour être centré *
   }*/
 
+.nav_burger a {
+    background-color: rgb(29, 22, 23);
+}
 
 .grow {
     font: 41px/57px "Titan One";
