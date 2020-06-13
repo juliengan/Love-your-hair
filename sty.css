@@ -8,8 +8,59 @@
     width: 60%; /* largeur obligatoire pour être centré *
   }*/
 
-.nav_burger a {
-    background-color: rgb(29, 22, 23);
+.inside p{
+    font-family: 'Lora', serif;
+    color: black;
+    font-size:15px;
+    text-align: center;
+    vertical-align: middle;
+    text-align: justify;
+    margin:100px;
+    padding-top: 13%;
+    padding-bottom: 53%;
+}
+
+.inside2 p{
+    font-family: 'Lora', serif;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding:5px 5px;
+    font-size:15px;
+    text-align: center;
+    vertical-align: middle;
+    text-align: justify;
+    margin:100px;
+    opacity: 80%;
+    padding-top: 13%;
+    padding-bottom: 53%;
+   
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex span{
+    font-family: 'Lora', serif;
+    color: black;
+    font-size:15px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 13%;
+    padding-bottom: 93%;
+}
+
+.flex img{
+    -moz-border-radius:10px 0;
+-webkit-border-radius:10px 0;
+border-radius:10px 0;
+}
+
+.flex img:hover{
+    transition: ease-in;
+    padding:2px 2px;
+    opacity:90%;
 }
 
 .grow {
