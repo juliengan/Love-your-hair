@@ -46,6 +46,14 @@
     padding: 7px 7px;
 }
 
+.nav_burger a:hover{
+    opacity:80%;
+   background-color: maroon;
+   color:white;
+   transition: all 0.3s ease 0s;
+   
+}
+
 .nav_burger a.selected {
     background-color: rgb(197, 82, 99);
 }
@@ -62,7 +70,7 @@
     cursor: pointer;
 }
 
-.nav_burger li a:hover,.site-footer a:hover{
+.site-footer a:hover{
     color:#a64b79;
     
     transition: all 0.3s ease 0s;
