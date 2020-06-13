@@ -35,13 +35,12 @@
 
 .nav_burger a{
     color:black;
+    background-color: blanchedalmond;
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 14px;
     text-transform: uppercase;
-    padding: auto 17px;
-    
-
+    padding: auto 17px;  
 }
 
 .burger div{
