@@ -145,7 +145,7 @@ footer{
 
 }*/
 
-button, label{/*li et a enlevé*/
+button, label{
     font-weight: 500;
     font-size: 12px;
     color: #000608;
@@ -189,11 +189,11 @@ button, label{/*li et a enlevé*/
 
 }
 
-.nav {
+/*.nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
+}*/
 
 
 .site-footer{
@@ -210,6 +210,11 @@ div img{
 li a img{
     height:20px;
     width:20px;
+}
+
+.efrei img{
+    width: 150px;
+    height: 40px;
 }
 
 /*.nav{
@@ -335,14 +340,7 @@ p{
     padding-top: 13%;
 }
 
-h1{
-    font-family: 'Lora', serif;
-    color: black;
-    font-size:65px;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 13%;
-}
+
 
 .text-logo p{
     color: black;

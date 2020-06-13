@@ -22,6 +22,14 @@
     margin-top: 30px;
 }
 
+.efrei img{
+    width: 50px;
+    height: 30px;
+    top:70px;
+    left:0px;
+    
+}
+
 .nav_burger li{
     font-size: 19px;
     list-style: none;
@@ -68,13 +76,8 @@
     text-align: center;
 }
 
-.container{
-    visibility: hidden;
-  
-}
-.navigation{
-    visibility: hidden;
-}
+
+
 .nav_burger{
     position: absolute;
     right:0px;
@@ -84,15 +87,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:30%;
+    width:50%;
     transform: translateX(100%);
     transition: 0.5s ease-in;
 }
-ul.nav_burger {
+
+ul.nav_burger, .title {
     position: absolute;
     right: 20;
     top: 18vw;
-    width: 30%;
+    width: 50%;
     max-width: 680px;
     background-color: #000;
     opacity: 90%;
@@ -100,7 +104,7 @@ ul.nav_burger {
     padding-top: 0;
 }
 .nav_burger a{
-    color:white;
+    color:black;
 }
 .burger{
     display: block;
