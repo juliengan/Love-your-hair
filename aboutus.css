@@ -75,6 +75,7 @@ body{
 .team .team_member p.role{
 	color: #ea9a96;
 	font-size: 12px;
+	font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
 	text-transform: uppercase;
 	margin: 12px 0;
 }
@@ -94,8 +95,12 @@ body{
 .team .team_member .team_img img{
 	width: 100px;
 	height: 100px;
-	padding: 5px;
+	padding: 8px;
+	border-radius: 50%;
 }
+
+
+
 .about{
 	margin-bottom: 50px;
 }
