@@ -76,14 +76,9 @@
     transition: all 0.3s ease 0s;
 }
 
-@media screen and (max-width: 768px) {
-
-.grow {
-    font: 24px/72px "Titan One";
-    text-align: center;
-}
 
 
+@media screen and (max-width: 1191px) {
 
 .nav_burger{
     position: absolute;
@@ -117,14 +112,15 @@ ul.nav_burger, .title {
     display: block;
 }
 
-/*.nav_burger li{
-    opacity:0;
-}*/
-
 .nav-active{
 transform: translateX(0%);
 }
 
+.burger_menu{
+    display: flex;
+    min-height: 8vh;
+    font-family: 'Lato', sans-serif;
+  
 }
 
 .toggle .line1{
