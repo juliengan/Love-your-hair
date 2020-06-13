@@ -41,10 +41,16 @@ body{
 	height: 3px;
 	background-color: black;
 	margin: auto;
-	margin-bottom: 80px;
+	margin-bottom: 30px;
 }
 
+.info p{
+	color: black;
+	font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
+	text-align: center;
+}
 
+/*
 
 .team{
 	display: flex;
@@ -99,7 +105,7 @@ body{
 	border-radius: 50%;
 }
 
-
+*/
 
 .about{
 	margin-bottom: 50px;
@@ -145,3 +151,107 @@ body{
 	
 	
 }
+
+.container{
+	width: 100%;
+	height: 100%;
+	margin: 10px 20px 20px;
+	
+}
+
+.container .circle:hover{
+	z-index: 1;
+}
+
+.container .circle{
+	position: relative;
+	width: 100%;
+	height: 70vh;
+	background-attachment: fixed;
+	background-position: center;
+	transition: 1s;
+	cursor: grab;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.container .circle.circle1{
+	background: url(aboutus_images/1.png);
+	background-size: 95%;
+	clip-path: circle(100px at 55% center);
+}
+
+.container .circle.circle1:active{
+	background: url(aboutus_images/Imane.jpeg);
+	background-size: 100%;
+	clip-path: circle(1000px at center);
+	transition: 1s;
+}
+
+.container .circle.circle2{
+	background: url(aboutus_images/2.png);
+	background-size: 100%;
+	clip-path: circle(100px at 45% center);
+}
+
+.container .circle.circle2:active{
+	background: url(aboutus_images/Julie.jpg);
+	background-size: 100%;
+	clip-path: circle(1000px at center);
+	transition: 1s;
+}
+
+
+.container .circle.circle3{
+	background: url(aboutus_images/3.png);
+	background-size: 100%;
+	clip-path: circle(100px at 30% center);
+}
+
+.container .circle.circle3:active{
+	background: url(aboutus_images/Auré.jpg);
+	background-size: 100%;
+	clip-path: circle(1000px at center);
+	transition: 1s;
+}
+
+
+
+
+.circle .content{
+	max-width: 800px;
+	box-sizing: border-box;
+	padding: 40px;
+	font-family: cosolas;
+	background: #dcd8e3;;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.container .circle:active .content{
+	opacity: 1;
+	transition-delay: 0.2s;
+}
+
+.container .circle .content h2{
+	margin:0;
+	padding: 0;
+	color: #ea9a96;
+	font-size: 14px;
+	font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
+	text-transform: uppercase;
+
+}
+
+.container .circle .content p{
+	margin:0;
+	padding: 0;
+	color: #fff;
+	font-size: 14px;
+	font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
+}
+
+
