@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
-#global {
+/*#global {
+    
     margin-left: auto;
     margin-right: auto;
-    width: 60%; /* largeur obligatoire pour être centré */
-  }
+    width: 60%; /* largeur obligatoire pour être centré *
+  }*/
 
 
 .grow {
@@ -16,25 +17,17 @@
     #770a0c 4px 4px 0,
     #333 5px 5px 10px;
     color:#FFE5BF;
-}
-
-.grow{
+    text-align: center;
     top:30px;
     position: -webkit-sticky;
     position: sticky;
     height: 50px;
-    z-index: 1;   
+    z-index: 1; 
+    background-color: rgb(153, 138, 138);  
 }
 
 
 
-
-
-article {
-    background-color: rgb(168, 170, 189);
-    width: 100vw;
-    max-width: 820px;
-}
 
 .welcome {
     background-color: #ca3333;
