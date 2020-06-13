@@ -1,3 +1,31 @@
+.logo-face{
+  background: url(face.PNG) no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 100vh;
+  
+  opacity: 77%;
+}
+.face p{
+  color:blanchedalmond;
+  width: 60%;
+  text-align: center;
+  left: 20%;
+  padding: 0px 30px 40px;
+  font-family: 'Lora', serif;
+
+}
+
+.face h1{
+  font-family: 'Lora', serif;
+  color: blanchedalmond;
+  font-size:65px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 13%;
+}
+
+
 .slide-container img {
 	margin: auto;
 }
