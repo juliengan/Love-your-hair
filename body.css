@@ -7,3 +7,31 @@
     display: flex;
     flex-direction: row;
 }
+
+
+.logo-body{
+    background: url(bodylove.jpg) no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    
+    opacity: 77%;
+}
+.body p{
+    color:blanchedalmond;
+    width: 60%;
+    text-align: center;
+    left: 20%;
+    padding: 0px 30px 40px;
+    font-family: 'Lora', serif;
+
+}
+
+.body h1{
+    font-family: 'Lora', serif;
+    color: blanchedalmond;
+    font-size:65px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 13%;
+}
