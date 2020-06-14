@@ -121,17 +121,18 @@ html {
     -webkit-text-size-adjust: none;*/
   }
 
-
+ 
 
 body { 
    
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
     font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    -moz-osx-font-smoothing: grayscale;
+    /*-moz-osx-font-smoothing: grayscale;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
     font-feature-settings: "kern";
@@ -144,9 +145,10 @@ body {
     display: flex;
     align-items: center;
     overflow: hidden;
-    width: 30%;
-    width: calc(var(--n)*30%);
-    height: 20vw; max-height: 130vh;
+    /*width: 30%;*/
+    /*width: calc(var(--n)*30%);*/
+    /*height: 20vw; */
+    /*max-height: 130vh;*/
     transition: transform .5s ease-out;
     transform: translate(calc(var(--i, 0)/var(--n)*-30% + var(--tx, 0px)))
   
@@ -257,6 +259,7 @@ button, label{
 .site-footer{
     background-color: black;
     opacity: 60%;
+    margin-top: auto;
 }
 
 div img{
