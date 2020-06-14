@@ -10,14 +10,17 @@
 
 .inside p{
     font-family: 'Lora', serif;
-    color: black;
-    font-size:15px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-size:17px;
     text-align: center;
     vertical-align: middle;
-    text-align: justify;
+    justify-content: justify;
     margin:100px;
+    opacity: 70%;
     padding-top: 13%;
-    padding-bottom: 53%;
+    padding-bottom: 13%;
+    padding: 20px;
 }
 
 .inside2 p{
@@ -25,14 +28,15 @@
     color: rgb(255, 255, 255);
     background-color: #000000;
     padding:5px 5px;
-    font-size:15px;
+    font-size:17px;
     text-align: center;
     vertical-align: middle;
-    text-align: justify;
+    
     margin:100px;
-    opacity: 80%;
+    opacity: 70%;
     padding-top: 13%;
-    padding-bottom: 53%;
+    padding-bottom: 13%;
+    padding: 20px;
    
 }
 
